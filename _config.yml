@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # added to enable "View on GitHub button"
-site.github.is_project_page: true
+site.github.is_project_page: -true
 
 # Build settings
 theme: jekyll-theme-slate
