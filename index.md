@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+# Can you see this???
+
+<!-- <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 
   <head>
@@ -11,10 +20,10 @@
     {% include head-custom.html %}
   </head>
 
-  <body>
+  <body> -->
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    <!-- <div id="header_wrap" class="outer">
         <header class="inner">
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
@@ -30,17 +39,17 @@
             </section>
           {% endif %}
         </header>
-    </div>
+    </div> -->
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
+    <!-- <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-    </div>
+    </div> -->
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
+    <!-- <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -49,4 +58,4 @@
       </footer>
     </div>
   </body>
-</html>
+</html> -->
