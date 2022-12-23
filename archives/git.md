@@ -2,11 +2,9 @@
 layout: archives
 ---
 
-# git document
+# Git/GitHub document
 
-# Git Instruction Note
-
-### Links
+- ### {{ layout.title1 }}
 
 |topic| link| note|
 |-------|------------|-----|
@@ -14,7 +12,11 @@ layout: archives
 |[Inviting collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/)|test |not checked yet|
 |[How to Publish a Docker Image to GitHub's Container Registry](https://dev.to/github/publishing-a-docker-image-to-githubs-container-repository-4n50)||not checked yet|
 
-### Commands
+[Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY)   
+[Kevin](https://www.youtube.com/watch?v=tRZGeaHPoaw)
+
+
+- ### {{ layout.title2 }}
 
 |command| explanation| note|
 |-------|------------|-----|
@@ -34,5 +36,9 @@ layout: archives
 |**"git log"**|  show all commits in repository|
 |**"git log --oneline"**| show all commits in repository|
 
-Source1: https://www.youtube.com/watch?v=DVRQoVRzMIY (Tech with Tim)  
-Source2: https://www.youtube.com/watch?v=tRZGeaHPoaw (Kevin)
+
+
+- ### {{ layout.title3 }}
+
+- ### {{ layout.title4 }}
+

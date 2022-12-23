@@ -2,9 +2,15 @@
 layout: archives
 ---
 
-# javascript document
+# Javascript document
 
-### Output
+- ### {{ layout.title1 }}
+
+
+
+- ### {{ layout.title2 }}
+
+##### Output
 
 |command| explanation| note|
 |-------|------------|-----|
@@ -13,14 +19,14 @@ layout: archives
 |**"cosole.log()"**|  display data in the browser |  
 |**"document.getElementById("Id").innerHTML = "**|  display data in HTML| 
 
-### Array Object
+##### Array Object
 - forEach(), map(), filter(), indexOf(), entries()
 
 |command| explanation| note|
 |-------|------------|-----|
 |**"Array forEach()"**| array iterate: "array.forEach(functionName)" |
 
-### Math Object
+##### Math Object
 - Math.random()
 
 |command| explanation| note|
@@ -29,7 +35,7 @@ layout: archives
 |**"Math.pow(x,2)"**|  x to the power of 2, x to the 2nd power|
 |**"Math.sign()"**|  return x is negative, null or positive|
 
-### Conditional Statement
+##### Conditional Statement
 
 |command| explanation| note|
 |-------|------------|-----|
@@ -39,13 +45,13 @@ layout: archives
 |**"else { //to be executed if the other conditions are false// }"**|  else |
 |**"switch(expression) {case x: CB break; case y: CB break; default: CB}"**|  else |
 
-### Loop Statement
+##### Loop Statement
 
 |command| explanation| note|
 |-------|------------|-----|
 |**"for (let i = 0; i < 5; i++) {CB}"**|  for (initiate; condition; executed after every CB) |
 
-### Other
+##### Other
 
 |command| explanation| note|
 |-------|------------|-----|
@@ -57,3 +63,10 @@ layout: archives
 - Identifiers are case sensitive (Upper Camel Case (Pascal Case) and Lower Camel Case are different values)
 - Coding convention for Javascript https://www.w3schools.com/js/js_conventions.asp
 - slight change for training Git.
+
+
+- ### {{ layout.title3 }}
+
+
+
+- ### {{ layout.title4 }}

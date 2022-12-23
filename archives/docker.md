@@ -2,9 +2,14 @@
 layout: archives
 ---
 
-# document document
+# Docker document
 
-### Commands for Docker
+- ### {{ layout.title1 }}
+
+[docker for beginners](https://docker-curriculum.com/)  ...depoyed single container to AWSBeanStalk!  
+[https://www.youtube.com/watch?v=zkMRWDQV4Tg](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
+
+- ### {{ layout.title2 }}
 
 |command| explanation| note|
 |-------|------------|-----|
@@ -16,8 +21,11 @@ layout: archives
 |**"docker rm 'Container ID'"**|  remove exited container|
 |**"docker-compose up --build'"**|  manage building images with ".yaml"|
 
-Source: https://docker-curriculum.com/  ...depoyed single container to AWSBeanStalk!  
-Other reference: https://www.youtube.com/watch?v=zkMRWDQV4Tg
 
+- ### {{ layout.title3 }}
+
+
+
+- ### {{ layout.title4 }}
 
 Note: You have to save file before add to stage. If not, you'll find nothing to add.
