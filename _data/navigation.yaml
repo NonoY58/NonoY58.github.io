@@ -1,0 +1,12 @@
+# If you want to create more menus, add names and links here. 
+
+- name: home
+  link: /
+- name: Projects
+  link: /projects.html
+- name: Archives
+  link: /archives.html
+- name: About
+  link: /about
+- name: Blog
+  link: /blog.html

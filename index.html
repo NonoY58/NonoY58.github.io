@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Nono's page
+title: NonoY's page
 ---
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ title: Nono's page
 </head>
 <body>
   <div>
-    <h1>Have your own project built from scratch test</h1>
+    <h1 id="test1">Have your own project built from scratch</h1>
     <ul>  
       <li> Portfolio Using Javascript  </li>
       <li> Scraping tool for a Web Page  </li>
@@ -33,6 +33,25 @@ title: Nono's page
       <li> Image Processing Tool  </li>
     </ul>
   </div>
+
+  <a href="https://gamedevacademy.org/how-to-build-a-coding-portfolio/">build portfolio</a>
+
+  <h2>HTML Forms</h2>
+  <div>
+  <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  </div>
+  </form> 
+
+  <p id="test2"></p>
+
+  <script>
+    document.getElementById('test2').innerHTML = document.getElementById('test1').innerHTML
+    
+  </script>
 
 </body>
 </html>
