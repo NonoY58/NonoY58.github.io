@@ -1,5 +1,3 @@
-  <ul>
-    {% for item in site.data.navigationArchives %}
-    <li><h4><a href="{{ item.link }}" {% if page.url == item.link %}style="color: purple;"{% endif %}> {{item.name}} </a></h4></li>
-   {% endfor %}
-  </ul>
+{% for item in site.data.navigationArchives %}
+  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: purple;"{% endif %}> {{item.name}} </a> /
+{% endfor %}
