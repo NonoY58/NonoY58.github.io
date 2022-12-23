@@ -1,6 +1,6 @@
 # If you want to create more menus, add names and links here. 
 
-- name: home
+- name: Home
   link: /
 - name: Projects
   link: /projects.html

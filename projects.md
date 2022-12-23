@@ -1,6 +1,6 @@
 ---
-layout: default
-title: projects
+layout: page
+title: Projects
 ---
 <h1>Topics</h1>
 
