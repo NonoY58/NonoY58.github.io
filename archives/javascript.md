@@ -17,7 +17,8 @@ layout: archives
 |**"window.alert()"**|  display data on window|
 |**"document.write()"**|  show text for testing purposes|
 |**"cosole.log()"**|  display data in the browser |  
-|**"document.getElementById("Id").innerHTML = "**|  display data in HTML| 
+
+**"document.getElementById("Id").innerHTML = "**
 
 ##### Array Object
 - forEach(), map(), filter(), indexOf(), entries()
