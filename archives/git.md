@@ -18,24 +18,39 @@ layout: archives
 
 - ### {{ layout.title2 }}
 
+  - ##### Setting
+
 |command| explanation| note|
 |-------|------------|-----|
-|**"git add * "**|  Add files to stage|   
-|**"git commit -m '[message]' "**|  Commit|  
-|**"git remote add origine URL"**|  Add remote origin|  
+|**"git remote add origin URL"**| Add remote origin|    
+|**"git push -u origin master"**| push to remote origin| needed only in the first push| 
+
+  - ##### Update
+
+|command| explanation| note|
+|-------|------------|-----|
+|**"git add . "**| Add files to stage|   
+|**"git commit -m '[message]' "**| Commit|  
+|**"git push"**| Push| Can be omitted properties after the first push |
+|**"git reset "**|  remove a file from staging area|
+|**"git rm --cashed 'file name' "**|  remove a file from repository (get untracked)|
+
+  - ##### Branching
+
 |**"git branch"**|  list branches|
 |**"git checkout -b 'branch name'"**|  create a branch|
 |**"git checkout 'branch name' "**|  Change branch|
 |**"git branch -D 'branch name'"**|  Delete a branch|
-|**"git push -u origin master"**|  push to remote origin| 
 |**"git merge 'branch name' "**|  merge to master| Note: have to be in Master branch|
-|**"git diff "**|  show diffence|
-|**"git reset "**|  remove from staging area|
-|**"git rm --cashed 'file name' "**|  remove file from repository (get untracked)|
+
+  - ##### Check status, configuration and so on
+
 |**"git config -h"**|  show all related commands available|
+|**"git config user.email"**| show email configurated|
+
+|**"git diff "**|  show diffence|
 |**"git log"**|  show all commits in repository|
 |**"git log --oneline"**| show all commits in repository|
-
 
 
 - ### {{ layout.title3 }}

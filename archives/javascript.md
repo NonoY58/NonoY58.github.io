@@ -6,7 +6,7 @@ layout: archives
 
 - ### {{ layout.title1 }}
 
-
+  - [W3Schools JS Tutorial](https://www.w3schools.com/js/default.asp)
 
 - ### {{ layout.title2 }}
 

@@ -32,6 +32,52 @@ title: NonoY's page
     </ul>
   </div>
 
+  <button onclick="myFunction()">Click me</button>
+
+<div>
+  <img src="assets\images\koi-carp-fish-cartoon-sticker\f008_5r23_210603.jpg" alt="from Freepik" id="image1">
+  <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+  <img src="assets\images\vintage-fish-illustration\26463.jpg" alt="from Freepik" id="image2">
+  <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+</div>
+
+<style>
+  #image1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 100px;
+  }
+  #image2 {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 100px;
+  }
+</style>
+
+<script>
+  function myFunction() {
+    let locationImage1X =  Math.round(Math.random()*130) + "%";
+    let locationImage1Y =  Math.round(Math.random()*100) + "%";
+    let locationImage2X =  Math.round(Math.random()*130) + "%";
+    let locationImage2Y =  Math.round(Math.random()*100) + "%";
+    // let locationImage1 =;
+    // let locationImage1Num =locationImage1.concat("%");
+    document.getElementById("image1").style.left = locationImage1X;
+    document.getElementById("image1").style.top = locationImage1Y;
+    document.getElementById("image2").style.left = locationImage2X;
+    document.getElementById("image2").style.top = locationImage2Y;
+  }
+</script>
+
+<!-- image source list
+  
+1. 26463.jpg from vintage-fish-illustration
+<a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+
+-->
+
   <!-- <h2>HTML Forms</h2>
   <div>
   <form action="/action_page.php">
