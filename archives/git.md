@@ -39,11 +39,12 @@ layout: archives
 
   |command| explanation| note|
   |-------|------------|-----|
-  |**"git branch"**|  list branches|
-  |**"git checkout -b 'branch name'"**|  create a branch|
-  |**"git checkout 'branch name' "**|  Change branch|
-  |**"git branch -D 'branch name'"**|  Delete a branch|
+  |**"git branch"**| list branches|
+  |**"git checkout -b 'branch name'"**| create a branch|
+  |**"git checkout 'branch name' "**| Change branch|
   |**"git merge 'branch name' "**|  merge to master| Note: have to be in Master branch|
+  |**"git branch -d 'branch name'"**| Delete a branch|
+  |**"git pull origin 'main'"**| pull update from origin to local main branch|
 
   - ##### Check status, configuration and so on
 
