@@ -11,6 +11,7 @@ title: NonoY's page
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head> 
 <body>
   <blockquote id="bq">
@@ -41,54 +42,46 @@ title: NonoY's page
     <br><br><br><br><br><br><br><br><br><br>
   </div>
 
-
-
-<div>
-  <img src="assets\images\koi-carp-fish-cartoon-sticker\f008_5r23_210603.jpg" alt="from Freepik" id="image1">
-  <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
-  <img src="assets\images\vintage-fish-illustration\26463.jpg" alt="from Freepik" id="image2">
+<div id="img">
+  <!-- <img src="assets\images\vintage-fish-illustration\26463.jpg" alt="from Freepik" id="imageB"> --> -->
   <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 </div>
 
-<style>
-  #bq {
-    background-color: lightblue;
-    padding: 1%;
-    margin: 2%;
-    position: fixed;
-    z-index: 1;
-  }
-
-  .button {
-    font-size: 150%;
-  }
-
-  #image1 {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    width: 100px;
-  }
-  #image2 {
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    width: 100px;
-  }
-</style>
-
 <script>
+var fishNum = 0;
+
+  function generate() {
+    if(fishNum < 10) {
+      fishNum += 1; // count fish number
+      const locX = Math.round(Math.random()*130);
+      const locY = Math.round(Math.random()*100);
+      let tag = document.createElement("img"); //create element
+      let text = document.createTextNode("image"+fishNum); //define text
+      tag.appendChild(text); //set text to the tag
+      tag.setAttribute("id","image"+fishNum); //set id to the tag
+      tag.setAttribute("src","assets\\images\\koi-carp-fish-cartoon-sticker\\f008_5r23_210603.jpg"); //set src to the tag
+      tag.setAttribute("alt","from Freepik"); //set alt to the tag
+      tag.setAttribute("width","100px"); //set alt to the tag
+      tag.setAttribute("style","position:absolute; top:" +locX+ "%; left:" +locY+ "%"); //set position
+      document.getElementById("img").appendChild(tag); //put tag to the element
+    }
+    else {
+      alert("too many fish!!")
+    }
+  }
+
   function swim() {
-    let locationImage1X =  Math.round(Math.random()*130) + "%";
-    let locationImage1Y =  Math.round(Math.random()*100) + "%";
-    let locationImage2X =  Math.round(Math.random()*130) + "%";
-    let locationImage2Y =  Math.round(Math.random()*100) + "%";
-    // let locationImage1 =;
-    // let locationImage1Num =locationImage1.concat("%");
-    document.getElementById("image1").style.left = locationImage1X;
-    document.getElementById("image1").style.top = locationImage1Y;
-    document.getElementById("image2").style.left = locationImage2X;
-    document.getElementById("image2").style.top = locationImage2Y;
+    let locX;
+    let locY;
+    let i = fishNum+1;
+    while (0 < i) {
+      console.log(i);
+      i -=1;
+      locX =  Math.round(Math.random()*130) + "%";
+      locY =  Math.round(Math.random()*100) + "%";
+      document.getElementById("image"+i).style.left = locX;
+      document.getElementById("image"+i).style.top = locY;
+    }
   }
 </script>
 
@@ -99,21 +92,6 @@ title: NonoY's page
 
 -->
 
-  <!-- <h2>HTML Forms</h2>
-  <div>
-  <form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  </div>
-  </form> 
-
-  <p id="test2"></p>
-
-  <script>
-    document.getElementById('test2').innerHTML = document.getElementById('test1').innerHTML
-    
-  </script> -->
+</script>
 </body>
 
