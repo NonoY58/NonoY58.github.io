@@ -13,6 +13,14 @@ title: NonoY's page
   <title>{{ page.title }}</title>
 </head> 
 <body>
+  <blockquote id="bq">
+    <h2>JS Aquarium</h2>
+    <button class="button" onclick="generate()">Generate</button>
+    <button class="button" onclick="swim()">Swim</button>
+    <button class="button" onclick="hide()">Hide</button>
+    <button class="button" onclick="bye()">Bye</button>
+  </blockquote>
+
   <div>
     <h1 id="test1">My Project</h1>
     <ul>  
@@ -30,9 +38,10 @@ title: NonoY's page
     <ul>   
       <li> Hopefully get involved in the MENTA project </li>
     </ul>
+    <br><br><br><br><br><br><br><br><br><br>
   </div>
 
-  <button onclick="myFunction()">Click me</button>
+
 
 <div>
   <img src="assets\images\koi-carp-fish-cartoon-sticker\f008_5r23_210603.jpg" alt="from Freepik" id="image1">
@@ -42,6 +51,18 @@ title: NonoY's page
 </div>
 
 <style>
+  #bq {
+    background-color: lightblue;
+    padding: 1%;
+    margin: 2%;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .button {
+    font-size: 150%;
+  }
+
   #image1 {
     position: absolute;
     top: 50%;
@@ -57,7 +78,7 @@ title: NonoY's page
 </style>
 
 <script>
-  function myFunction() {
+  function swim() {
     let locationImage1X =  Math.round(Math.random()*130) + "%";
     let locationImage1Y =  Math.round(Math.random()*100) + "%";
     let locationImage2X =  Math.round(Math.random()*130) + "%";
