@@ -1,37 +1,16 @@
+#bq {
+  background-color: lightblue;
+  padding: 1%;
+  margin: 1%;
+  position: fixed;
+  z-index: 1;
+}
 
-  #bq {
-    background-color: lightblue;
-    padding: 1%;
-    margin: 2%;
-    position: fixed;
-    z-index: 1;
-  }
+#aquaTitle {
+  font-size: 150%;
+  color: lightseagreen;
+}
 
-  .button {
-    font-size: 150%;
-  }
-
-  #imageA {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    width: 100px;
-  }
-  #imageB {
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    width: 100px;
-  }
-  /* #image1 {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 100px;
-  }
-  #image2 {
-    position: absolute;
-    top: 20%;
-    left: 90%;
-    width: 100px;
-  } */
+.button {
+  font-size: 100%;
+}

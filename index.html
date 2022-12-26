@@ -12,15 +12,18 @@ title: NonoY's page
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/css/style.css">
+  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1" />
 </head> 
 <body>
-  <blockquote id="bq">
-    <h2>JS Aquarium</h2>
+  <!-- <blockquote id="bq"> -->
+  <div id="bq">
+    <p id="aquaTitle">JS Aquarium</p>
     <button class="button" onclick="generate()">Generate</button>
     <button class="button" onclick="swim()">Swim</button>
     <button class="button" onclick="hide()">Hide</button>
     <button class="button" onclick="bye()">Bye</button>
-  </blockquote>
+  <!-- </blockquote> -->
+  </div>
 
   <div>
     <h1 id="test1">My Project</h1>
@@ -47,14 +50,41 @@ title: NonoY's page
   <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 </div>
 
+<style>
+#bq {
+  background-color: lightblue;
+  padding: 1%;
+  margin: 1%;
+  position: fixed;
+  z-index: 1;
+  border: solid; 
+  border-radius: 20px;
+  border-color: lightseagreen;
+}
+
+#aquaTitle {
+  font-family: cursive;
+  font-size: 200%;
+  color: lightseagreen;
+}
+
+.button {
+  font-family: cursive;
+  font-size: 100%;
+  color: grey;
+  border-radius: 5px;
+  border-color: grey;
+}
+</style>
+
 <script>
 var fishNum = 0;
 
   function generate() {
     if(fishNum < 10) {
       fishNum += 1; // count fish number
-      const locX = Math.round(Math.random()*130);
-      const locY = Math.round(Math.random()*100);
+      let locX = Math.round((Math.random()*85)-20);
+      let locY = Math.round(Math.random()*85-20);
       let tag = document.createElement("img"); //create element
       let text = document.createTextNode("image"+fishNum); //define text
       tag.appendChild(text); //set text to the tag
@@ -62,11 +92,11 @@ var fishNum = 0;
       tag.setAttribute("src","assets\\images\\koi-carp-fish-cartoon-sticker\\f008_5r23_210603.jpg"); //set src to the tag
       tag.setAttribute("alt","from Freepik"); //set alt to the tag
       tag.setAttribute("width","100px"); //set alt to the tag
-      tag.setAttribute("style","position:absolute; top:" +locX+ "%; left:" +locY+ "%"); //set position
+      tag.setAttribute("style","position:absolute; left:" +locX+ "vw; top:" +locY+ "vw"); //set position
       document.getElementById("img").appendChild(tag); //put tag to the element
     }
     else {
-      alert("too many fish!!")
+      alert("too much fish!!")
     }
   }
 
@@ -77,10 +107,19 @@ var fishNum = 0;
     while (0 < i) {
       console.log(i);
       i -=1;
-      locX =  Math.round(Math.random()*130) + "%";
-      locY =  Math.round(Math.random()*100) + "%";
+      locX =  Math.round((Math.random()*85)-20) + "vw";
+      locY =  Math.round(Math.random()*85-20) + "vw";
       document.getElementById("image"+i).style.left = locX;
       document.getElementById("image"+i).style.top = locY;
+    }
+  }
+
+  function hide() {
+    let i = fishNum+1;
+    while (0 < i) {
+      i -=1;
+      let tag = document.getElementById("image" + i); //specigy tag
+      document.getElementById("image"+i).style.display = "none";//set display to the tag
     }
   }
 </script>
@@ -92,6 +131,5 @@ var fishNum = 0;
 
 -->
 
-</script>
 </body>
 
