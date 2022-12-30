@@ -17,11 +17,14 @@ title: NonoY's page
 <body>
   <!-- <blockquote id="bq"> -->
   <div id="bq">
-    <p id="aquaTitle">JS Aquarium</p>
+    <button class="button" id="AquaFix"  onclick="fix()">Fix Aquarium</button>
+    <p id="aquaTitle">Digital Aquarium
+      <img id="fishicon" src="assets\\images\\svgrepo\\icon\\icon2.svg" alt="fish image">
+    </p>
     <button class="button" onclick="generate()">Generate</button>
     <button class="button" onclick="swim()">Swim</button>
-    <button class="button" onclick="hide()">Hide</button>
-    <button class="button" onclick="bye()">Bye</button>
+    <button class="button" id="hidebutton" onclick="hide()">Hide</button>
+    <button class="button" onclick="bye()">Bye</button><br>
   <!-- </blockquote> -->
   </div>
 
@@ -46,13 +49,12 @@ title: NonoY's page
   </div>
 
 <div id="img">
-  <!-- <img src="assets\images\vintage-fish-illustration\26463.jpg" alt="from Freepik" id="imageB"> --> -->
-  <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 </div>
 
 <style>
 #bq {
   background-color: lightblue;
+  width: 27%;
   padding: 1%;
   margin: 1%;
   position: fixed;
@@ -68,6 +70,12 @@ title: NonoY's page
   color: lightseagreen;
 }
 
+#fishicon {
+  width: 13%;
+  border: none;
+  box-shadow: none;
+}
+
 .button {
   font-family: cursive;
   font-size: 100%;
@@ -75,13 +83,78 @@ title: NonoY's page
   border-radius: 5px;
   border-color: grey;
 }
+#AquaFix {
+  font-size: 80%;
+  color: lightseagreen;
+  border: none;
+  background-color: transparent;
+}
+#AquaFix:hover {
+  background-color: lightyellow;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
 </style>
 
 <script>
+const urls = [
+  "assets\\images\\svgrepo\\fish\\fish1.svg",
+  "assets\\images\\svgrepo\\fish\\fish2.svg",
+  "assets\\images\\svgrepo\\fish\\fish3.svg",
+  "assets\\images\\svgrepo\\fish\\fish4.svg",
+  "assets\\images\\svgrepo\\fish\\fish5.svg",
+  "assets\\images\\svgrepo\\fish\\fish6.svg",
+  "assets\\images\\svgrepo\\fish\\fish7.svg",
+  "assets\\images\\svgrepo\\fish\\fish8.svg",
+  "assets\\images\\svgrepo\\fish\\fish9.svg",
+  "assets\\images\\svgrepo\\fish\\fish10.svg",
+  "assets\\images\\svgrepo\\fish\\fish11.svg",
+  "assets\\images\\svgrepo\\fish\\fish12.svg",
+  "assets\\images\\svgrepo\\fish\\fish13.svg",
+  "assets\\images\\svgrepo\\fish\\fish14.svg",
+  "assets\\images\\svgrepo\\fish\\fish15.svg",
+  "assets\\images\\svgrepo\\fish\\fish16.svg",
+  "assets\\images\\svgrepo\\fish\\fish17.svg",
+  "assets\\images\\svgrepo\\fish\\fish18.svg",
+  "assets\\images\\svgrepo\\fish\\fish19.svg",
+  "assets\\images\\svgrepo\\fish\\fish20.svg",
+  "assets\\images\\svgrepo\\fish\\fish21.svg",
+  "assets\\images\\svgrepo\\fish\\fish22.svg",
+  "assets\\images\\svgrepo\\fish\\fish23.svg",
+  "assets\\images\\svgrepo\\fish\\fish24.svg",
+  "assets\\images\\svgrepo\\fish\\fish25.svg",
+  "assets\\images\\svgrepo\\fish\\fish26.svg",
+  "assets\\images\\svgrepo\\fish\\fish27.svg",
+  "assets\\images\\svgrepo\\fish\\fish28.svg",
+  "assets\\images\\svgrepo\\fish\\fish29.svg",
+  "assets\\images\\svgrepo\\fish\\fish30.svg",
+  "assets\\images\\svgrepo\\fish\\fish31.svg",
+  "assets\\images\\svgrepo\\fish\\fish32.svg",
+  "assets\\images\\svgrepo\\fish\\fish33.svg",
+  "assets\\images\\svgrepo\\fish\\fish34.svg",
+  "assets\\images\\svgrepo\\fish\\fish35.svg",
+  "assets\\images\\svgrepo\\fish\\fish36.svg",
+  "assets\\images\\svgrepo\\fish\\fish37.svg",
+  "assets\\images\\svgrepo\\fish\\fish38.svg",
+  "assets\\images\\svgrepo\\fish\\fish39.svg",
+  "assets\\images\\svgrepo\\fish\\fish40.svg",
+  "assets\\images\\svgrepo\\fish\\fish41.svg",
+  "assets\\images\\svgrepo\\fish\\fish4.svg",
+  "assets\\images\\svgrepo\\fish\\turtle.svg",
+  "assets\\images\\svgrepo\\fish\\whale.svg",
+  "assets\\images\\svgrepo\\fish\\prawn.svg",
+  "assets\\images\\svgrepo\\fish\\octopus.svg",
+]
+
 var fishNum = 0;
 
   function generate() {
-    if(fishNum < 10) {
+    var url = Math.floor((Math.random())*(urls.length));
+    if(fishNum < 100) {
       fishNum += 1; // count fish number
       let locX = Math.round((Math.random()*85)-20);
       let locY = Math.round(Math.random()*85-20);
@@ -89,14 +162,16 @@ var fishNum = 0;
       let text = document.createTextNode("image"+fishNum); //define text
       tag.appendChild(text); //set text to the tag
       tag.setAttribute("id","image"+fishNum); //set id to the tag
-      tag.setAttribute("src","assets\\images\\koi-carp-fish-cartoon-sticker\\f008_5r23_210603.jpg"); //set src to the tag
+      tag.setAttribute("src",urls[url]); //set src to the tag
       tag.setAttribute("alt","from Freepik"); //set alt to the tag
-      tag.setAttribute("width","100px"); //set alt to the tag
+      tag.setAttribute("width","55px"); //set alt to the tag
       tag.setAttribute("style","position:absolute; left:" +locX+ "vw; top:" +locY+ "vw"); //set position
       document.getElementById("img").appendChild(tag); //put tag to the element
+      document.getElementById("image"+fishNum).style.border = "none";
+      document.getElementById("image"+fishNum).style.boxShadow = "none";
     }
     else {
-      alert("too much fish!!")
+      alert("Too many sea creatures!!")
     }
   }
 
@@ -115,11 +190,47 @@ var fishNum = 0;
   }
 
   function hide() {
+    let hideORreveal = document.getElementById("hidebutton").innerHTML
     let i = fishNum+1;
+    if(hideORreveal == "Hide") {
+      document.getElementById("hidebutton").innerHTML = "Reveal"
+      while (0 < i) {
+        i -=1;
+        let tag = document.getElementById("image" + i); //specigy tag
+        tag.style.display = "none";//set display to the tag
+        }
+      }
+    else {
+      document.getElementById("hidebutton").innerHTML = "Hide"
+      while (0 < i) {
+        i -=1;
+        let tag = document.getElementById("image" + i); //specigy tag
+        tag.style.display = "initial";//set display to the tag
+      }
+    };
+  
+  }
+
+  function bye() {
+    document.getElementById("hidebutton").innerHTML = "Hide";
+    let i = fishNum+1;
+    fishNum = 0;
     while (0 < i) {
-      i -=1;
-      let tag = document.getElementById("image" + i); //specigy tag
-      document.getElementById("image"+i).style.display = "none";//set display to the tag
+        i -=1;
+        let tag = document.getElementById("image" + i).remove(); //specigy tag
+      }
+  }
+
+  function fix() {
+    if (document.getElementById("AquaFix").innerHTML == "Fix Aquarium") {
+      document.getElementById("AquaFix").innerHTML = "Set Aquarium afloat";
+      document.getElementById("bq").style.position = "sticky";
+      document.getElementById("bq").style.width = "50%";
+    }
+    else {
+      document.getElementById("AquaFix").innerHTML = "Fix Aquarium";
+      document.getElementById("bq").style.position = "fixed";
+      document.getElementById("bq").style.width = "27%";
     }
   }
 </script>
