@@ -58,10 +58,10 @@ const urls = [
         let locY;
         if(window.innerWidth > 992) {
             locX = Math.round((Math.random()*85)-20);
-            locY = Math.round(Math.random()*85-20);
+            locY = Math.round((Math.random()*170)-40);
         } else {
-            locX = Math.round((Math.random()*100));
-            locY = Math.round(Math.random()*100);
+            locX = Math.round(Math.random()*100);
+            locY = Math.round((Math.random()*170)-40);
         }
         let tag = document.createElement("img"); //create element
         let text = document.createTextNode("image"+fishNum); //define text
@@ -70,7 +70,7 @@ const urls = [
         tag.setAttribute("src",urls[url]); //set src to the tag
         tag.setAttribute("alt","from Freepik"); //set alt to the tag
         tag.setAttribute("width","55px"); //set alt to the tag
-        tag.setAttribute("style","position:absolute; left:" +locX+ "vw; top:" +locY+ "vw"); //set position
+        tag.setAttribute("style","position:absolute; left:" +locX+ "vw; top:" +locY+ "vh"); //set position
         document.getElementById("img").appendChild(tag); //put tag to the element
         document.getElementById("image"+fishNum).style.border = "none";
         document.getElementById("image"+fishNum).style.boxShadow = "none";
@@ -88,14 +88,14 @@ const urls = [
         console.log(i);
         i -=1;
         if(window.innerWidth > 992) {
-          locX =  Math.round((Math.random()*85)-20) + "vw";
-          locY =  Math.round(Math.random()*85-20) + "vw";
+          locX =  Math.round((Math.random()*85)-20);
+          locY =  Math.round((Math.random()*170)-40);
           } else {
-          locX = Math.round((Math.random()*100)) + "vw";
-          locY = Math.round(Math.random()*100) + "vw";
+          locX = Math.round(Math.random()*100);
+          locY = Math.round((Math.random()*170)-40);
           }
-        document.getElementById("image"+i).style.left = locX;
-        document.getElementById("image"+i).style.top = locY;
+        document.getElementById("image"+i).style.left = locX + "vw";
+        document.getElementById("image"+i).style.top = locY + "vh";
         document.getElementById("image"+i).style.transition = "all 3s ease"; //animation
       }
     }
