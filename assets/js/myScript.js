@@ -50,11 +50,21 @@ const urls = [
   var fishNum = 0;
   
     function generate() {
+    //   alert(window.innerWidth > 992);
       var url = Math.floor((Math.random())*(urls.length));
       if(fishNum < 100) {
         fishNum += 1; // count fish number
-        let locX = Math.round((Math.random()*85)-20);
-        let locY = Math.round(Math.random()*85-20);
+        let locX;
+        let locY;
+        // let locX = Math.round((Math.random()*85)-20);
+        // let locY = Math.round(Math.random()*85-20);
+        if(window.innerWidth > 992) {
+            locX = Math.round((Math.random()*85)-20);
+            locY = Math.round(Math.random()*85-20);
+        } else {
+            locX = Math.round((Math.random()*100));
+            locY = Math.round(Math.random()*100);
+        }
         let tag = document.createElement("img"); //create element
         let text = document.createTextNode("image"+fishNum); //define text
         tag.appendChild(text); //set text to the tag
@@ -79,10 +89,20 @@ const urls = [
       while (0 < i) {
         console.log(i);
         i -=1;
-        locX =  Math.round((Math.random()*85)-20) + "vw";
-        locY =  Math.round(Math.random()*85-20) + "vw";
+        locX = Math.round((Math.random()*85)-20);
+        locY = Math.round(Math.random()*85-20);
+        // let locX;
+        // let locY;
+        // if(window.innerWidth > 992) {
+        //   locX =  Math.round((Math.random()*85)-20);
+        //   locY =  Math.round(Math.random()*85-20);
+        //   } else {
+        //   locX = Math.round((Math.random()*100));
+        //   locY = Math.round(Math.random()*100);
+        //   }
         document.getElementById("image"+i).style.left = locX;
         document.getElementById("image"+i).style.top = locY;
+        document.getElementById("image"+i).style.transition = "all 3s ease"; //animation
       }
     }
   
@@ -130,3 +150,11 @@ const urls = [
         document.getElementById("bq").style.width = "27%";
       }
     }
+
+    // $("#activate").click(function() {
+    //   $('#bq').toggleClass('bq-transform');
+    // });
+
+    // function change() {
+
+    // }
