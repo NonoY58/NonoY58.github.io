@@ -57,11 +57,11 @@ const urls = [
         let locX;
         let locY;
         if(window.innerWidth > 992) {
-            locX = Math.round((Math.random()*85)-20);
-            locY = Math.round((Math.random()*170)-40);
+            locX = Math.round((Math.random()*80)-20);
+            locY = Math.round((Math.random()*160)-45);
         } else {
             locX = Math.round(Math.random()*100);
-            locY = Math.round((Math.random()*170)-40);
+            locY = Math.round((Math.random()*160)-45);
         }
         let tag = document.createElement("img"); //create element
         let text = document.createTextNode("image"+fishNum); //define text
@@ -88,11 +88,11 @@ const urls = [
         console.log(i);
         i -=1;
         if(window.innerWidth > 992) {
-          locX =  Math.round((Math.random()*85)-20);
-          locY =  Math.round((Math.random()*170)-40);
+          locX =  Math.round((Math.random()*80)-20);
+          locY =  Math.round((Math.random()*160)-45);
           } else {
           locX = Math.round(Math.random()*100);
-          locY = Math.round((Math.random()*170)-40);
+          locY = Math.round((Math.random()*160)-45);
           }
         document.getElementById("image"+i).style.left = locX + "vw";
         document.getElementById("image"+i).style.top = locY + "vh";
