@@ -2,3 +2,44 @@
 ---
 
 @import "{{ site.theme }}";
+
+#bq {
+  background-color: lightblue;
+  width: 27%;
+  padding: 1%;
+  margin: 1%;
+  position: fixed;
+  z-index: 1;
+  border: solid; 
+  border-radius: 20px;
+  border-color: lightseagreen;
+}
+  
+#aquaTitle {
+  font-family: cursive;
+  font-size: 200%;
+  color: lightseagreen;
+}
+  
+#fishicon {
+  width: 13%;
+  border: none;
+  box-shadow: none;
+}
+  
+.button {
+  font-family: cursive;
+  font-size: 100%;
+  color: grey;
+  border-radius: 5px;
+  border-color: grey;
+}
+#AquaFix {
+  font-size: 80%;
+  color: lightseagreen;
+  border: none;
+  background-color: transparent;
+}
+#AquaFix:hover {
+  background-color: lightyellow;
+}
