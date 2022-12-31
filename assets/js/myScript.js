@@ -56,8 +56,6 @@ const urls = [
         fishNum += 1; // count fish number
         let locX;
         let locY;
-        // let locX = Math.round((Math.random()*85)-20);
-        // let locY = Math.round(Math.random()*85-20);
         if(window.innerWidth > 992) {
             locX = Math.round((Math.random()*85)-20);
             locY = Math.round(Math.random()*85-20);
@@ -89,17 +87,13 @@ const urls = [
       while (0 < i) {
         console.log(i);
         i -=1;
-        locX = Math.round((Math.random()*85)-20);
-        locY = Math.round(Math.random()*85-20);
-        // let locX;
-        // let locY;
-        // if(window.innerWidth > 992) {
-        //   locX =  Math.round((Math.random()*85)-20);
-        //   locY =  Math.round(Math.random()*85-20);
-        //   } else {
-        //   locX = Math.round((Math.random()*100));
-        //   locY = Math.round(Math.random()*100);
-        //   }
+        if(window.innerWidth > 992) {
+          locX =  Math.round((Math.random()*85)-20) + "vw";
+          locY =  Math.round(Math.random()*85-20) + "vw";
+          } else {
+          locX = Math.round((Math.random()*100)) + "vw";
+          locY = Math.round(Math.random()*100) + "vw";
+          }
         document.getElementById("image"+i).style.left = locX;
         document.getElementById("image"+i).style.top = locY;
         document.getElementById("image"+i).style.transition = "all 3s ease"; //animation

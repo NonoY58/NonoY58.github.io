@@ -3,12 +3,6 @@
 
 @import "{{ site.theme }}";
 
-
-
-#bq-transform {
-  background-color:red;
-  }
-
 #bq {
   background-color: lightblue;
   width: 27%;
@@ -39,6 +33,7 @@
   color: grey;
   border-radius: 5px;
   border-color: grey;
+  touch-action: manipulation; //prevent double tap
 }
 #AquaFix {
   font-size: 80%;
