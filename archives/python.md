@@ -6,6 +6,7 @@ layout: archives
 
 ### {{ layout.title1 }}
 
+- [Learn basics through Image Processing project here.](/projects/imageProcessing.md)
 
 ### {{ layout.title2 }}
 
