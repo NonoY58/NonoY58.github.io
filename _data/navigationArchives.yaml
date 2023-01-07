@@ -20,3 +20,5 @@
   link: /archives/jekyll.html
 - name: FastAPI
   link: /archives/fastapi.html
+- name: Other Topics
+  link: /archives/otherTopics.html
