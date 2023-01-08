@@ -7,7 +7,6 @@ layout: home
 Create a desktop app using PyQt to modify an image to obtain basic workflow of Image Processing with Python.  
 
 
-
 ### Basics
 - [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
   - create venv
@@ -64,9 +63,16 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
 
 - [Python and PyQt: Building a GUI Desktop Calculator](https://realpython.com/python-pyqt-gui-calculator/)
   - Built PyQt6 environment through this instruction.
-  -  
-
-
+- [PyQt Layouts: Create Professional-Looking GUI Applications](https://realpython.com/python-pyqt-layout/)
+  - 3 steps to put a layout on a widget  
+    1. create a layout
+    2. Add widgets to the layout
+    3. Assign the layout to the parent widget
+  - [[video] Creating PyQt Layouts for GUI Python Applications](https://www.youtube.com/watch?v=MY29YV9Wk7I)
+  - [Widgets Classes](https://doc.qt.io/qt-6/widget-classes.html) 
+  - [spin box class](https://doc.qt.io/qt-6/qspinbox.html)
+  - [How to add an image to the PyQt5 window](https://www.educative.io/answers/how-to-add-an-image-to-the-pyqt5-window)
+  
 - [PyQt vs PySide Licensing](https://www.pythonguis.com/faq/pyqt-vs-pyside/)  
   - A GPL lisence allow users to distribute software if the source code is also distributed.  
 
