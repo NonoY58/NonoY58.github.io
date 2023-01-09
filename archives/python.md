@@ -6,7 +6,7 @@ layout: archives
 
 ### {{ layout.title1 }}
 
-- [Learn basics through Image Processing project here.](/projects/imageProcessing.md)
+- [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
 
 - [How to Learn to Code & Get a Developer Job in 2023 [Full Book]](https://www.freecodecamp.org/news/learn-to-code-book/) => not only python topic
 

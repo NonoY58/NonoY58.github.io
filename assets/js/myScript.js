@@ -128,20 +128,20 @@ const urls = [
       fishNum = 0;
       while (0 < i) {
           i -=1;
-          let tag = document.getElementById("image" + i).remove(); //specigy tag
+          let tag = document.getElementById("image" + i).remove(); //specify tag
         }
     }
   
     function fix() {
-      if (document.getElementById("AquaFix").innerHTML == "Fix Aquarium") {
-        document.getElementById("AquaFix").innerHTML = "Set Aquarium afloat";
-        document.getElementById("bq").style.position = "sticky";
-        document.getElementById("bq").style.width = "50%";
-      }
-      else {
+      if (document.getElementById("AquaFix").innerHTML == "Set Aquarium afloat") {
         document.getElementById("AquaFix").innerHTML = "Fix Aquarium";
         document.getElementById("bq").style.position = "fixed";
         document.getElementById("bq").style.width = "27%";
+      }
+      else {
+        document.getElementById("AquaFix").innerHTML = "Set Aquarium afloat";
+        document.getElementById("bq").style.position = "sticky";
+        document.getElementById("bq").style.width = "50%";
       }
     }
 
