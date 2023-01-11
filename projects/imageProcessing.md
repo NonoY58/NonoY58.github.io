@@ -80,3 +80,9 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
 ### Image Processing
 
 - [Image Processing With the Python Pillow Library](https://realpython.com/image-processing-with-the-python-pillow-library/)
+- [Pillow’s documentation](https://pillow.readthedocs.io/en/stable/reference/index.html)
+  - PIL; Python Pillow Library is predecessor of Pillow
+- [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
+  - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
+- [Pixmap Conversion](https://doc.qt.io/qt-6/qpixmap.html#:~:text=A%20QPixmap%20object%20can%20be,QPixmap%20using%20the%20fromImage().)
+  -  a QImage can be converted into a QPixmap using the fromImage(). 
