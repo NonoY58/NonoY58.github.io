@@ -81,8 +81,27 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
 
 - [Image Processing With the Python Pillow Library](https://realpython.com/image-processing-with-the-python-pillow-library/)
 - [Pillow’s documentation](https://pillow.readthedocs.io/en/stable/reference/index.html)
-  - PIL; Python Pillow Library is predecessor of Pillow
-- [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
-  - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
-- [Pixmap Conversion](https://doc.qt.io/qt-6/qpixmap.html#:~:text=A%20QPixmap%20object%20can%20be,QPixmap%20using%20the%20fromImage().)
-  -  a QImage can be converted into a QPixmap using the fromImage(). 
+  - [Image Module](https://pillow.readthedocs.io/en/stable/reference/Image.html)
+  - [Image file formats](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
+  - PIL, Python Pillow Library, is predecessor of Pillow
+
+- Image format
+  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+    - "raw" is just a name of defualt encoder
+  - [QImage Class](https://doc.qt.io/qt-6/qimage.html)
+    - Image formats documented here are available 
+    - QImage has a number of image format. In this project, "Format_RGBA8888" that is refered in the following link was selected, because it worked.
+  - [PIL Image to QPixmap conversion issue](https://stackoverflow.com/questions/34697559/pil-image-to-qpixmap-conversion-issue)
+    - the conversion worked by adding stated lines here
+  - [Convert BGR and RGB with Python, OpenCV (cvtColor)](https://note.nkmk.me/en/python-opencv-bgr-rgb-cvtcolor/) 
+    - OpenCV is BGR, Pillow is RGB in the order of colors
+  - [Pixmap Conversion](https://doc.qt.io/qt-6/qpixmap.html#:~:text=A%20QPixmap%20object%20can%20be,QPixmap%20using%20the%20fromImage().)
+    -  a QImage can be converted into a QPixmap using the fromImage(). 
+  - [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
+    - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
+
+- C++ 
+  - [Access Specifiers](https://www.w3schools.com/cpp/cpp_access_specifiers.asp)
+    - public, private, protected
+  - [What is C++ Enum, And How to Use Enums in C++](https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-enum#:~:text=In%20C%2B%2B%20programming%2C%20enum%20or,to%20maintain%20and%20less%20complex.)
+    - **Enum** provides a way to define and group integral constants.
