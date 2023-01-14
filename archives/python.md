@@ -9,8 +9,11 @@ layout: archives
 - [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
 
 - [How to Learn to Code & Get a Developer Job in 2023 [Full Book]](https://www.freecodecamp.org/news/learn-to-code-book/) => not only python topic
+- [Learn From 2022's Most Popular Python Tutorials and Courses](https://realpython.com/popular-python-tutorials-2022/)
 
 - [Welcome to real python](https://realpython.com/courses/real-python-welcome/)
+  - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+  - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
 - [Interacting With Python](https://realpython.com/interacting-with-python/)
   - REPL interaction: 
     - **Reads** the command you enter

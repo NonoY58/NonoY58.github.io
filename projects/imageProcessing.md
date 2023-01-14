@@ -33,27 +33,28 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
     - [What Does if **\_\_name\_\_** == "**\_\_main\_\_**" Do in Python?](https://realpython.com/if-name-main-python/)  
     - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
 
-- [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
-  - "f{ }" => f-strings, a.k.a formatted string literals.
-  - [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
-- [Difference Between Python Modules, Packages, Libraries, and Frameworks](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
-  -  **A module** is basically a bunch of related code saved in a file with the extension .py.
-  - **Python packages** are basically a directory of a collection of **modules**.
-  - **A library** is an umbrella term referring to a reusable chunk of code. However, it is often assumed that while **a package** is a collection of **modules**, a **library** is a collection of **packages**.
-    - [Top 15 Python Libraries for Data Science](https://learnpython.com/blog/python-libraries-for-data-science/)
-- [How to Use Python Lambda Functions](https://realpython.com/python-lambda/)
-
-- [Python enumerate(): Simplify Looping With Counters](https://realpython.com/python-enumerate/)
-
-- [Model-View-Controller (MVC) Explained – With Legos](https://realpython.com/the-model-view-controller-mvc-paradigm-summarized-with-legos/)
-- [Business_logic_wiki](https://en.wikipedia.org/wiki/Business_logic)
-- [eval_really_is_dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html)
+- functions and tools
+  - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
+    - "f{ }" => f-strings, a.k.a formatted string literals.
+    - [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+    - [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
+  - [How to Use Python Lambda Functions](https://realpython.com/python-lambda/)
+  - [Python enumerate(): Simplify Looping With Counters](https://realpython.com/python-enumerate/)
+  - [Using Python datetime to Work With Dates and Times](https://realpython.com/python-datetime/)
   - [Python eval(): Evaluate Expressions Dynamically](https://realpython.com/python-eval-function/)
-- [Python args and kwargs: Demystified
-](https://realpython.com/python-kwargs-and-args/)
-  - positional arguments and keyword arguments
-  - unpacking operators: to be able to accept varying number of arguments 
-    - (*) is for positional arguments, (**) is for keyword arguments  
+    - [eval_really_is_dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html)
+  - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/)
+    - positional arguments and keyword arguments
+    - unpacking operators: to be able to accept varying number of arguments 
+      - (*) is for positional arguments, (**) is for keyword arguments  
+
+- Other topics
+  - [Difference Between Python Modules, Packages, Libraries, and Frameworks](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
+    -  **A module** is basically a bunch of related code saved in a file with the extension .py.
+    - **Python packages** are basically a directory of a collection of **modules**.
+    - **A library** is an umbrella term referring to a reusable chunk of code. However, it is often assumed that while **a package** is a collection of **modules**, a **library** is a collection of **packages**.
+      - [Top 15 Python Libraries for Data Science](https://learnpython.com/blog/python-libraries-for-data-science/)
+  - [Business_logic_wiki](https://en.wikipedia.org/wiki/Business_logic)
 
 - [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/)
   - PyPI; Python Package Index is a repository containing several hundred thousand packages.  
@@ -74,8 +75,14 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - [spin box class](https://doc.qt.io/qt-6/qspinbox.html)
   - [How to add an image to the PyQt5 window](https://www.educative.io/answers/how-to-add-an-image-to-the-pyqt5-window)
   
+- [Model-View-Controller (MVC) Explained – With Legos](https://realpython.com/the-model-view-controller-mvc-paradigm-summarized-with-legos/)
+
 - [PyQt vs PySide Licensing](https://www.pythonguis.com/faq/pyqt-vs-pyside/)  
   - A GPL lisence allow users to distribute software if the source code is also distributed.  
+
+- QSpinbox
+  - [QSpinBox](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QSpinBox.html)
+  - [PyQt QSpinBox](https://zetcode.com/pyqt/qspinbox/) 
 
 ### Image Processing
 
@@ -86,7 +93,7 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - PIL, Python Pillow Library, is predecessor of Pillow
 
 - Image format
-  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+  - [Python PIL \| tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
     - "raw" is just a name of defualt encoder
   - [QImage Class](https://doc.qt.io/qt-6/qimage.html)
     - Image formats documented here are available 
