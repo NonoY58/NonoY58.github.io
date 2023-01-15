@@ -20,6 +20,16 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - delete venv
     - simply delete folder by typing "rm -r venv"  
   - [[video] Creating a Virtual Environment](https://realpython.com/lessons/creating-virtual-environment/#transcript)  
+  - [[video] Python Tutorial: Using Virtual Environments With GitHub](https://www.youtube.com/watch?v=6W6iY7uUu34)
+    - create new repo on GitHub with ".gitignore" file by default.
+    - copy URL of remote repo.
+    - move to local directory and clone the repo by "git clone URL" 
+      -> this process includes initialize in git.
+    - create venv by "python -m venv venv"
+    - create or copy .py file and install all packages necessary.
+      -> check packages with "pip list" command.
+    - create a requirments file with "pip freeze > requirments.txt"
+    - push everything to the remote repo.
   
 - [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
     - How to handle classes and instances.
@@ -35,7 +45,7 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
 
 - functions and tools
   - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
-    - "f{ }" => f-strings, a.k.a formatted string literals.
+    - "f{ }" => f-strings, a.k.a. formatted string literals.
     - [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
     - [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
   - [How to Use Python Lambda Functions](https://realpython.com/python-lambda/)
