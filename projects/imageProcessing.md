@@ -94,6 +94,17 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - [QSpinBox](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QSpinBox.html)
   - [PyQt QSpinBox](https://zetcode.com/pyqt/qspinbox/) 
 
+- Get coordinates of image 
+  - [Coordinates of an image PyQt](https://stackoverflow.com/questions/63378825/coordinates-of-an-image-pyqt)
+  - [How can I find the value of the pixel at the mouse pointer in a grey-scale image](https://groups.google.com/g/pyqtgraph/c/dXyom2XOA1M)
+  - [[OpenCV] Displaying the coordinates of the points clicked on the image using Python-OpenCV](https://www.geeksforgeeks.org/displaying-the-coordinates-of-the-points-clicked-on-the-image-using-python-opencv/) 
+  - difference between QGraphicsScene, QGraphicView and Qlabel.
+     - [Qlabel](https://doc.qt.io/qt-6/qlabel.html): For displaying text or an image. No user interaction functionality is provided.
+     - [QGraphicsScene](https://doc.qt.io/qt-6/qgraphicsscene.html): used together with QGraphicsView for visualizing graphical items
+     - [QGraphicsView](https://doc.qt.io/qt-6/qgraphicsview.html): visualizes the contents of a QGraphicsScene in a scrollable viewport.
+     - [Graphics View Framework](https://doc.qt.io/qt-6/graphicsview.html)
+  - Does repaint() method work for Qlabel?
+
 ### Image Processing
 
 - [Image Processing With the Python Pillow Library](https://realpython.com/image-processing-with-the-python-pillow-library/)
@@ -122,3 +133,13 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
     - public, private, protected
   - [What is C++ Enum, And How to Use Enums in C++](https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-enum#:~:text=In%20C%2B%2B%20programming%2C%20enum%20or,to%20maintain%20and%20less%20complex.)
     - **Enum** provides a way to define and group integral constants.
+  - [Class Methods](https://www.w3schools.com/cpp/cpp_class_methods.asp)
+    - **resolution operator** "::" [Scope resolution operator in C++](https://www.geeksforgeeks.org/scope-resolution-operator-in-c/)
+      1. To access a global variable when there is a local variable with same name
+      2. To define a function outside a class.
+      3. To access a class’s static variables. 
+      4. In case of multiple Inheritance
+      5. For namespace
+      6. Refer to a class inside another class
+    - 
+      
