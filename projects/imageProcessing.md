@@ -75,6 +75,7 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
 
 - [Python and PyQt: Building a GUI Desktop Calculator](https://realpython.com/python-pyqt-gui-calculator/)
   - Built PyQt6 environment through this instruction.
+- [Basic Layouts Example](https://doc.qt.io/qt-6/qtwidgets-layouts-basiclayouts-example.html)
 - [PyQt Layouts: Create Professional-Looking GUI Applications](https://realpython.com/python-pyqt-layout/)
   - 3 steps to put a layout on a widget  
     1. create a layout
@@ -94,6 +95,9 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - [QSpinBox](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QSpinBox.html)
   - [PyQt QSpinBox](https://zetcode.com/pyqt/qspinbox/) 
 
+- [QMouseEvent](https://doc.qt.io/qtforpython-5/PySide2/QtGui/QMouseEvent.html)
+- [QLineF Class](https://doc.qt.io/qt-6/qlinef.html)
+
 - Get coordinates of image 
   - [Coordinates of an image PyQt](https://stackoverflow.com/questions/63378825/coordinates-of-an-image-pyqt)
   - [How can I find the value of the pixel at the mouse pointer in a grey-scale image](https://groups.google.com/g/pyqtgraph/c/dXyom2XOA1M)
@@ -104,6 +108,7 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
      - [QGraphicsView](https://doc.qt.io/qt-6/qgraphicsview.html): visualizes the contents of a QGraphicsScene in a scrollable viewport.
      - [Graphics View Framework](https://doc.qt.io/qt-6/graphicsview.html)
   - Does repaint() method work for Qlabel?
+  - [Show X and Y coordinates lines in QGraphicsView](https://stackoverflow.com/questions/56748603/show-x-and-y-coordinates-lines-in-qgraphicsview)
 
 ### Image Processing
 
@@ -127,6 +132,9 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
     -  a QImage can be converted into a QPixmap using the fromImage(). 
   - [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
     - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
+  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+  - [ImageFilter Module](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html)
+  - [concepts of Pillow](https://pillow.readthedocs.io/en/stable/handbook/concepts.html)
 
 - C++ 
   - [Access Specifiers](https://www.w3schools.com/cpp/cpp_access_specifiers.asp)

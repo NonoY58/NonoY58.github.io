@@ -25,7 +25,11 @@ layout: archives
     - **Loops** back and repeats the process
   - IDE; An Integrated Development Environment
   - IDLE; Integrated Development and Learning Environment, rudimentary IDE
+- [Getting Started With Testing in Python](https://realpython.com/python-testing/)
 - [How to Use Python for Web Development](https://www.freecodecamp.org/news/how-to-use-python-for-web-development/)
+- [Working With Linear Systems in Python With scipy.linalg](https://realpython.com/python-scipy-linalg/)
+- [The Meaning of Underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python#:~:text=It's%20a%20hint%20to%20the,is%20intended%20for%20internal%20use.)
+
 - [860+ Free Online Programming & Computer Science Courses You Can Start This New Year](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)
 - [Who controls parallelism? A disagreement that leeds to slower code](https://pythonspeed.com/articles/concurrency-control/)
 
