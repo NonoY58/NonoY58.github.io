@@ -109,6 +109,11 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
      - [Graphics View Framework](https://doc.qt.io/qt-6/graphicsview.html)
   - Does repaint() method work for Qlabel?
   - [Show X and Y coordinates lines in QGraphicsView](https://stackoverflow.com/questions/56748603/show-x-and-y-coordinates-lines-in-qgraphicsview)
+- [Handling SQL Databases With PyQt: The Basics](https://realpython.com/python-pyqt-database/)
+- [Creating additional windows](https://www.pythonguis.com/tutorials/creating-multiple-windows/)
+- [How do I pass variables between class instances or get the caller?](https://stackoverflow.com/questions/7501706/how-do-i-pass-variables-between-class-instances-or-get-the-caller)
+
+- [Using PyInstaller to Easily Distribute Python Applications](https://realpython.com/pyinstaller-python/)
 
 ### Image Processing
 
@@ -135,6 +140,9 @@ Create a desktop app using PyQt to modify an image to obtain basic workflow of I
   - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
   - [ImageFilter Module](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html)
   - [concepts of Pillow](https://pillow.readthedocs.io/en/stable/handbook/concepts.html)
+  - [ImageEnhance Module](https://pillow.readthedocs.io/en/stable/reference/ImageEnhance.html#)
+  - [How to adjust brightness, contrast, sharpness and saturation of images in PIL (pillow) – with Python Examples](https://holypython.com/python-pil-tutorial/how-to-adjust-brightness-contrast-sharpness-and-saturation-of-images-in-python-pil/)
+  - [Dictionaries and JSON /| Digital Scholarship Resources](https://heardlibrary.github.io/digital-scholarship/script/python/json/)
 
 - C++ 
   - [Access Specifiers](https://www.w3schools.com/cpp/cpp_access_specifiers.asp)

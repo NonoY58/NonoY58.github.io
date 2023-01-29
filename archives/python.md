@@ -8,6 +8,7 @@ layout: archives
 
 - [[Book] Python Basics Book Resources](https://realpython.com/python-basics/resources/)
 
+
 - [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
 
 - [How to Learn to Code & Get a Developer Job in 2023 [Full Book]](https://www.freecodecamp.org/news/learn-to-code-book/) => not only python topic
