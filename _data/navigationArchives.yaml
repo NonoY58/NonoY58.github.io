@@ -18,6 +18,8 @@
   link: /archives/markdown.html
 - name: Jekyll
   link: /archives/jekyll.html
+- name: C++
+  link: /archives/cplusplus.html
 - name: FastAPI
   link: /archives/fastapi.html
 - name: Other Topics
