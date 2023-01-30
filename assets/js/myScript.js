@@ -52,7 +52,7 @@ const urls = [
     function generate() {
     //   alert(window.innerWidth > 992);
       var url = Math.floor((Math.random())*(urls.length));
-      if(fishNum < 10) {
+      if(fishNum < 100) {
         fishNum += 1; // count fish number
         let locX;
         let locY;
@@ -123,7 +123,6 @@ const urls = [
     }
   
     function bye() {
-      alert("Can you see this?")
       document.getElementById("hidebutton").innerHTML = "Hide";
       let i = fishNum+1;
       fishNum = 0;
@@ -136,8 +135,7 @@ const urls = [
     function fix() {
       if (document.getElementById("AquaFix").innerHTML == "Set Aquarium afloat") {
         document.getElementById("AquaFix").innerHTML = "Fix Aquarium";
-        // document.getElementById("bq").style.position = "fixed";
-        document.getElementById("bq").style.position = "static";
+        document.getElementById("bq").style.position = "fixed";
         document.getElementById("bq").style.width = "27%";
         // document.getElementById("bq").style.top = "200px";
       }
@@ -145,7 +143,6 @@ const urls = [
         document.getElementById("AquaFix").innerHTML = "Set Aquarium afloat";
         document.getElementById("bq").style.position = "static";
         document.getElementById("bq").style.width = "50%";
-        alert("Can you see this?")
       }
     }
 
