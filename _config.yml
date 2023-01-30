@@ -21,8 +21,8 @@
 title: NonoY's page.
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- Hi, I'm NonoY. This page is under construction. 
- You can enjoy Digital Aquarium at the bottom of this page.
+ This page is under construction. \n
+ Digital Aquarium is at the bottom of this page. Enjoy it if you like. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
