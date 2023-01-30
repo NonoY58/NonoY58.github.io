@@ -137,13 +137,13 @@ const urls = [
         document.getElementById("AquaFix").innerHTML = "Fix Aquarium";
         document.getElementById("bq").style.position = "fixed";
         document.getElementById("bq").style.width = "27%";
-        document.getElementById("bq").style.top = "200px";
+        // document.getElementById("bq").style.top = "200px";
       }
       else {
         document.getElementById("AquaFix").innerHTML = "Set Aquarium afloat";
         document.getElementById("bq").style.position = "sticky";
         document.getElementById("bq").style.width = "50%";
-        document.getElementById("bq").style.top = "200px";
+        // document.getElementById("bq").style.top = "200px";
       }
     }
 
