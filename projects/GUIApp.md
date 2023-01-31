@@ -10,13 +10,13 @@ Here I show you some of my GUI apps using PyQt6.
 
 ### Image Manupilation
 Appearance of the app "Image Manupilation" is like this.
-<img src="images\ImageProcessingToolfigure1.jpg" width="600">  
+<img src="images\ImageProcessingToolfigure1_v3.jpg" width="600">  
 
 With some of parameter boxes on the left, you can change color features of an image, also rotate it, resize it, and more. 
-<img src="images\ImageProcessingToolfigure2.jpg" width="600">  
+<img src="images\ImageProcessingToolfigure2_v3.jpg" width="600">  
 
 You can crop the image by specifying location of the top-left corner and the bottom-right corner with left and right click, respectively. After pushing the 'SAVE' button, the image will be saved in j-peg format with a parameter-list file in JSON format.  
-<img src="images\ImageProcessingToolfigure3.jpg" width="200">  
+<img src="images\ImageProcessingToolfigure3v2.jpg" width="200">  
 
 Anyway, you can use the app by following the procedure below.
 >  1. Execute a file named 'ImageProcessingTool_QGraph.py' in [my GitHub repo](https://github.com/NonoY58/Image-Processing-Tool). 

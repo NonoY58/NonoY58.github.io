@@ -6,6 +6,20 @@ layout: archives
 
 ### {{ layout.title1 }}
 
+### pandas
+
+- [Professional Pandas: The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)
+- [[Video]Effective Pandas by Matt Harrison](https://www.youtube.com/watch?v=UURvPeczxJI)
+
+- [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
+
+- [Web Scraping Project Videos Powered by Bright Data](https://brightdata.com/discovery-zone?gspk=bm9haGthbHNvbjU1MQ&gsxid=lhiNSwqUmCxn&utm_source=affiliates&utm_campaign=bm9haGthbHNvbjU1MQ)
+
+- [Web Scraping with Python and Object-Oriented Programming](https://medium.com/analytics-vidhya/web-scraping-with-python-and-object-oriented-programming-14638a231f14)
+
+
+-[Free College Algebra Course (with Python Code!)](https://www.freecodecamp.org/news/college-algebra-course-with-python-code/)
+
 - [[Book] Python Basics Book Resources](https://realpython.com/python-basics/resources/)
 
 - [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
@@ -96,7 +110,9 @@ layout: archives
 
 - [Glossary](https://docs.python.org/3/glossary.html#term-special-method)
 
-### GUI
+
+
+### GUI PyQt6
 
 - [Python and PyQt: Building a GUI Desktop Calculator](https://realpython.com/python-pyqt-gui-calculator/)
   - Built PyQt6 environment through this instruction.
