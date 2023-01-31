@@ -2,11 +2,9 @@
 
 - name: Home
   link: /
-- name: Projects
-  link: /projects.html
-- name: Archives
-  link: /archives.html
 - name: About
   link: /about
+- name: Archives
+  link: /archives.html
 - name: Blog
   link: /blog.html
