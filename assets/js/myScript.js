@@ -50,8 +50,6 @@ const urls = [
   var fishNum = 0;
   
     function generate() {
-      alert("I'm fixing!")
-
     //   alert(window.innerWidth > 992);
       var url = Math.floor((Math.random())*(urls.length));
       if(fishNum < 100) {
