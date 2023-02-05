@@ -2,32 +2,31 @@
 layout: archives
 ---
 
-# python document
+# Python Document
 
-### {{ layout.title1 }}
+### Beautiful Soup 4
+- [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- type of object
+  - class 'bs4.element.ResultSet' -> list
+  - class 'bs4.element.Tag' -> tag
 
-### pandas
 
+### Pandas
 - [Professional Pandas: The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)
 - [[Video]Effective Pandas by Matt Harrison](https://www.youtube.com/watch?v=UURvPeczxJI)
+- [pandas GroupBy: Your Guide to Grouping Data in Python](https://realpython.com/pandas-groupby/)
+- [How to Iterate Over Rows in pandas, and Why You Shouldn't](https://realpython.com/pandas-iterate-over-rows/)
+- [Replacing Pandas with Polars. A Practical Guide.](https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/)
 
-- [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
 
+### Python Scraping
 - [Web Scraping Project Videos Powered by Bright Data](https://brightdata.com/discovery-zone?gspk=bm9haGthbHNvbjU1MQ&gsxid=lhiNSwqUmCxn&utm_source=affiliates&utm_campaign=bm9haGthbHNvbjU1MQ)
-
 - [Web Scraping with Python and Object-Oriented Programming](https://medium.com/analytics-vidhya/web-scraping-with-python-and-object-oriented-programming-14638a231f14)
 
 
--[Free College Algebra Course (with Python Code!)](https://www.freecodecamp.org/news/college-algebra-course-with-python-code/)
-
-- [[Book] Python Basics Book Resources](https://realpython.com/python-basics/resources/)
-
-- [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
-
-- [How to Learn to Code & Get a Developer Job in 2023 [Full Book]](https://www.freecodecamp.org/news/learn-to-code-book/) => not only python topic
-
-- [Learn From 2022's Most Popular Python Tutorials and Courses](https://realpython.com/popular-python-tutorials-2022/)
-
+### Python Basics
+- PEP8 explained by Tim.  [Write Python Code Properly!](https://youtu.be/D4_s3q038I0) 
 - [Welcome to real python](https://realpython.com/courses/real-python-welcome/)
   - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
   - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
@@ -41,13 +40,7 @@ layout: archives
   - IDLE; Integrated Development and Learning Environment, rudimentary IDE
 - [Getting Started With Testing in Python](https://realpython.com/python-testing/)
 - [How to Use Python for Web Development](https://www.freecodecamp.org/news/how-to-use-python-for-web-development/)
-- [Working With Linear Systems in Python With scipy.linalg](https://realpython.com/python-scipy-linalg/)
 - [The Meaning of Underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python#:~:text=It's%20a%20hint%20to%20the,is%20intended%20for%20internal%20use.)
-
-- [860+ Free Online Programming & Computer Science Courses You Can Start This New Year](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)
-- [Who controls parallelism? A disagreement that leeds to slower code](https://pythonspeed.com/articles/concurrency-control/)
-
-### Python Basics
 - [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
   - create venv
     - "python -m venv (env_name)"
@@ -69,6 +62,7 @@ layout: archives
       -> check packages with "pip list" command.
     - create a requirments file with "pip freeze > requirments.txt"
     - push everything to the remote repo.
+  - [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
   
 - [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
     - How to handle classes and instances.
@@ -81,7 +75,6 @@ layout: archives
       - What is a **getter method** ?
     - [What Does if **\_\_name\_\_** == "**\_\_main\_\_**" Do in Python?](https://realpython.com/if-name-main-python/)  
     - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
-
 - functions and tools
   - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
     - "f{ }" => f-strings, a.k.a. formatted string literals.
@@ -96,7 +89,6 @@ layout: archives
     - positional arguments and keyword arguments
     - unpacking operators: to be able to accept varying number of arguments 
       - (*) is for positional arguments, (**) is for keyword arguments  
-
 - Other topics
   - [Difference Between Python Modules, Packages, Libraries, and Frameworks](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
     -  **A module** is basically a bunch of related code saved in a file with the extension .py.
@@ -110,7 +102,15 @@ layout: archives
 
 - [Glossary](https://docs.python.org/3/glossary.html#term-special-method)
 
-
+### Python Topics
+- [Free College Algebra Course (with Python Code!)](https://www.freecodecamp.org/news/college-algebra-course-with-python-code/)
+- [How to Learn to Code & Get a Developer Job in 2023 [Full Book]](https://www.freecodecamp.org/news/learn-to-code-book/) => not only python topic
+- [Learn From 2022's Most Popular Python Tutorials and Courses](https://realpython.com/popular-python-tutorials-2022/)
+- [Working With Linear Systems in Python With scipy.linalg](https://realpython.com/python-scipy-linalg/)
+- [860+ Free Online Programming & Computer Science Courses You Can Start This New Year](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)
+- [Who controls parallelism? A disagreement that leeds to slower code](https://pythonspeed.com/articles/concurrency-control/)
+- [Master the HTTP Networking Protocol](https://www.freecodecamp.org/news/http-networking-protocol-course/)
+- [Learn Django by Building a Marketplace](https://www.freecodecamp.org/news/learn-django-by-building-a-marketplace/)
 
 ### GUI PyQt6
 
@@ -157,6 +157,7 @@ layout: archives
 - [Using PyInstaller to Easily Distribute Python Applications](https://realpython.com/pyinstaller-python/)
 
 ### Image Processing 
+- [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
 - [Pillow’s documentation](https://pillow.readthedocs.io/en/stable/reference/index.html)
   - [Image Module](https://pillow.readthedocs.io/en/stable/reference/Image.html)
   - [Image file formats](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
