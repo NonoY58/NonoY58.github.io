@@ -13,16 +13,36 @@ layout: archives
 
 
 ### Pandas
+- [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/)
+- [Complete Python Pandas Data Science Tutorial! (Reading CSV/Excel files, Sorting, Filtering, Groupby)](https://www.youtube.com/watch?v=vmEHCJofslg)
+- [Improve Your Data Wrangling With Object Oriented Programming](https://towardsdatascience.com/improve-your-data-wrangling-with-object-oriented-programming-914d3ebc83a9)
 - [Professional Pandas: The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)
 - [[Video]Effective Pandas by Matt Harrison](https://www.youtube.com/watch?v=UURvPeczxJI)
 - [pandas GroupBy: Your Guide to Grouping Data in Python](https://realpython.com/pandas-groupby/)
 - [How to Iterate Over Rows in pandas, and Why You Shouldn't](https://realpython.com/pandas-iterate-over-rows/)
 - [Replacing Pandas with Polars. A Practical Guide.](https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/)
-
+- [20 Pandas Functions for 80% of your Data Science Tasks](https://levelup.gitconnected.com/20-pandas-functions-for-80-of-your-data-science-tasks-b610c8bfe63c)
 
 ### Python Scraping
 - [Web Scraping Project Videos Powered by Bright Data](https://brightdata.com/discovery-zone?gspk=bm9haGthbHNvbjU1MQ&gsxid=lhiNSwqUmCxn&utm_source=affiliates&utm_campaign=bm9haGthbHNvbjU1MQ)
 - [Web Scraping with Python and Object-Oriented Programming](https://medium.com/analytics-vidhya/web-scraping-with-python-and-object-oriented-programming-14638a231f14)
+
+### OOP
+- [Object-Oriented Programming for Data Scientists
+](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-8d4d976b6af8)
+- [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
+    - How to handle classes and instances.
+      - **class**  is like a blueprint for creating an object.
+      - **instance** is an object that is built from a class and contains real data.
+    - [Python Class Constructors: Control Your Object Instantiation](https://realpython.com/python-class-constructor/)
+    - [Python Command Line Arguments](https://realpython.com/python-command-line-arguments/)
+    - [Supercharge Your Classes With Python super()](https://realpython.com/python-super/)
+    - [Python's property(): Add Managed Attributes to Your Classes](https://realpython.com/python-property/#the-getter-and-setter-approach-in-python) 
+      - What is a **getter method** ?
+    - [What Does if **\_\_name\_\_** == "**\_\_main\_\_**" Do in Python?](https://realpython.com/if-name-main-python/)  
+    - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
+
+
 
 
 ### Python Basics
@@ -63,18 +83,6 @@ layout: archives
     - create a requirments file with "pip freeze > requirments.txt"
     - push everything to the remote repo.
   - [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
-  
-- [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
-    - How to handle classes and instances.
-      - **class**  is like a blueprint for creating an object.
-      - **instance** is an object that is built from a class and contains real data.
-    - [Python Class Constructors: Control Your Object Instantiation](https://realpython.com/python-class-constructor/)
-    - [Python Command Line Arguments](https://realpython.com/python-command-line-arguments/)
-    - [Supercharge Your Classes With Python super()](https://realpython.com/python-super/)
-    - [Python's property(): Add Managed Attributes to Your Classes](https://realpython.com/python-property/#the-getter-and-setter-approach-in-python) 
-      - What is a **getter method** ?
-    - [What Does if **\_\_name\_\_** == "**\_\_main\_\_**" Do in Python?](https://realpython.com/if-name-main-python/)  
-    - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
 - functions and tools
   - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
     - "f{ }" => f-strings, a.k.a. formatted string literals.
@@ -89,7 +97,8 @@ layout: archives
     - positional arguments and keyword arguments
     - unpacking operators: to be able to accept varying number of arguments 
       - (*) is for positional arguments, (**) is for keyword arguments  
-- Other topics
+  
+  - Other topics
   - [Difference Between Python Modules, Packages, Libraries, and Frameworks](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
     -  **A module** is basically a bunch of related code saved in a file with the extension .py.
     - **Python packages** are basically a directory of a collection of **modules**.
