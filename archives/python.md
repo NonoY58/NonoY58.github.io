@@ -13,17 +13,25 @@ layout: archives
 
 
 ### Pandas
+- [pandas documentation](https://pandas.pydata.org/docs/) --> Read "getting started"
 - [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/)
-- [Complete Python Pandas Data Science Tutorial! (Reading CSV/Excel files, Sorting, Filtering, Groupby)](https://www.youtube.com/watch?v=vmEHCJofslg)
+  - [The pandas DataFrame: Make Working With Data Delightful](https://realpython.com/pandas-dataframe/)
+  - [Look Ma, No For-Loops: Array Programming With NumPy](https://realpython.com/numpy-array-programming/)  --> vectorization
+  - [Fast, Flexible, Easy and Intuitive: How to Speed Up Your pandas Projects](https://realpython.com/fast-flexible-pandas/)
+  - [Python pandas: Tricks & Features You May Not Know](https://realpython.com/python-pandas-tricks/#8-understand-how-pandas-uses-boolean-operators)
+  - [pandas GroupBy: Your Guide to Grouping Data in Python](https://realpython.com/pandas-groupby/)
+  - [Pythonic Data Cleaning With pandas and NumPy](https://realpython.com/python-data-cleaning-numpy-pandas/)
+  - [Combining Data in pandas With merge(), .join(), and concat()](https://realpython.com/pandas-merge-join-and-concat/)
+- [How to Iterate Over Rows in pandas, and Why You Shouldn't](https://realpython.com/pandas-iterate-over-rows/)
+- [[Video] Effective Pandas by Matt Harrison](https://www.youtube.com/watch?v=UURvPeczxJI)
+- [[Video] Complete Python Pandas Data Science Tutorial! (Reading CSV/Excel files, Sorting, Filtering, Groupby)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Improve Your Data Wrangling With Object Oriented Programming](https://towardsdatascience.com/improve-your-data-wrangling-with-object-oriented-programming-914d3ebc83a9)
 - [Professional Pandas: The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)
-- [[Video]Effective Pandas by Matt Harrison](https://www.youtube.com/watch?v=UURvPeczxJI)
-- [pandas GroupBy: Your Guide to Grouping Data in Python](https://realpython.com/pandas-groupby/)
-- [How to Iterate Over Rows in pandas, and Why You Shouldn't](https://realpython.com/pandas-iterate-over-rows/)
 - [Replacing Pandas with Polars. A Practical Guide.](https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/)
 - [20 Pandas Functions for 80% of your Data Science Tasks](https://levelup.gitconnected.com/20-pandas-functions-for-80-of-your-data-science-tasks-b610c8bfe63c)
 
 ### Python Scraping
+- [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/)
 - [Web Scraping Project Videos Powered by Bright Data](https://brightdata.com/discovery-zone?gspk=bm9haGthbHNvbjU1MQ&gsxid=lhiNSwqUmCxn&utm_source=affiliates&utm_campaign=bm9haGthbHNvbjU1MQ)
 - [Web Scraping with Python and Object-Oriented Programming](https://medium.com/analytics-vidhya/web-scraping-with-python-and-object-oriented-programming-14638a231f14)
 
@@ -43,9 +51,12 @@ layout: archives
     - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
 
 
-
+### Machine Learning
+- [Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
 
 ### Python Basics
+- [Python Basics](https://realpython.com/tutorials/basics/)
+  - LEGB(Local, Enclose, Global, Built-in)
 - PEP8 explained by Tim.  [Write Python Code Properly!](https://youtu.be/D4_s3q038I0) 
 - [Welcome to real python](https://realpython.com/courses/real-python-welcome/)
   - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
@@ -97,7 +108,10 @@ layout: archives
     - positional arguments and keyword arguments
     - unpacking operators: to be able to accept varying number of arguments 
       - (*) is for positional arguments, (**) is for keyword arguments  
-  
+  - [Python Keywords: An Introduction](https://realpython.com/python-keywords/)
+  - [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/#simple-decorators) --> Decorators provide a simple syntax for calling higher-order functions
+  - [Python's map(): Processing Iterables Without a Loop](https://realpython.com/python-map-function/)
+
   - Other topics
   - [Difference Between Python Modules, Packages, Libraries, and Frameworks](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
     -  **A module** is basically a bunch of related code saved in a file with the extension .py.
@@ -122,7 +136,7 @@ layout: archives
 - [Learn Django by Building a Marketplace](https://www.freecodecamp.org/news/learn-django-by-building-a-marketplace/)
 
 ### GUI PyQt6
-
+- [Build a Contact Book With Python, PyQt, and SQLite](https://realpython.com/python-contact-book/)
 - [Python and PyQt: Building a GUI Desktop Calculator](https://realpython.com/python-pyqt-gui-calculator/)
   - Built PyQt6 environment through this instruction.
 - [Basic Layouts Example](https://doc.qt.io/qt-6/qtwidgets-layouts-basiclayouts-example.html)
