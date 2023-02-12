@@ -1,20 +1,20 @@
 # This file is to navigate in archives directory.
 
+- name: Python
+  link: /archives/python.html
 - name: VScode
   link: /archives/vscode.html
 - name: Git
   link: /archives/git.html
 - name: Docker
   link: /archives/docker.html
-- name: Python
-  link: /archives/python.html
 - name: HTML
   link: /archives/html.html
 - name: CSS
   link: /archives/css.html
 - name: Javascript
   link: /archives/javascript.html
-- name: Markdown
+  - name: Markdown
   link: /archives/markdown.html
 - name: Jekyll
   link: /archives/jekyll.html

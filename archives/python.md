@@ -11,6 +11,10 @@ layout: archives
   - class 'bs4.element.ResultSet' -> list
   - class 'bs4.element.Tag' -> tag
 
+### Selenium
+- [How to Automate Login using Selenium in Python](https://www.thepythoncode.com/article/automate-login-to-websites-using-selenium-in-python)
+- [Selenium with Python 4. Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html)
+- [【Python】エラー対策「システムに接続されたデバイスが機能していません。 (0x1F)」](https://miya-mitsu.com/python-0x1ferror/)
 
 ### Pandas
 - [pandas documentation](https://pandas.pydata.org/docs/) --> Read "getting started"
@@ -34,6 +38,8 @@ layout: archives
 - [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/)
 - [Web Scraping Project Videos Powered by Bright Data](https://brightdata.com/discovery-zone?gspk=bm9haGthbHNvbjU1MQ&gsxid=lhiNSwqUmCxn&utm_source=affiliates&utm_campaign=bm9haGthbHNvbjU1MQ)
 - [Web Scraping with Python and Object-Oriented Programming](https://medium.com/analytics-vidhya/web-scraping-with-python-and-object-oriented-programming-14638a231f14)
+- [How to Read Robots.txt](https://www.seerinteractive.com/insights/how-to-read-robots-txt)
+- [Docker+Pythonを使ってスクレイピング環境を構築する](https://boardtechlog.com/2020/07/programming/dockerpython%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%82%b9%e3%82%af%e3%83%ac%e3%82%a4%e3%83%94%e3%83%b3%e3%82%b0%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e3%80%90mac%e3%83%bbwind/)
 
 ### OOP
 - [Object-Oriented Programming for Data Scientists
@@ -136,6 +142,7 @@ layout: archives
 - [Learn Django by Building a Marketplace](https://www.freecodecamp.org/news/learn-django-by-building-a-marketplace/)
 
 ### GUI PyQt6
+- [PyQt6 code samples](https://learndataanalysis.org/category/python-tutorial/pyqt6/)
 - [Build a Contact Book With Python, PyQt, and SQLite](https://realpython.com/python-contact-book/)
 - [Python and PyQt: Building a GUI Desktop Calculator](https://realpython.com/python-pyqt-gui-calculator/)
   - Built PyQt6 environment through this instruction.
