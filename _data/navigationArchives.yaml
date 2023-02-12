@@ -14,7 +14,7 @@
   link: /archives/css.html
 - name: Javascript
   link: /archives/javascript.html
-  - name: Markdown
+- name: Markdown
   link: /archives/markdown.html
 - name: Jekyll
   link: /archives/jekyll.html
