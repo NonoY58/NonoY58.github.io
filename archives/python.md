@@ -42,6 +42,15 @@ layout: archives
 - [Concurrent Web Scraping with Selenium Grid and Docker Swarm](https://testdriven.io/blog/concurrent-web-scraping-with-selenium-grid-and-docker-swarm/)
 - [Docker+Pythonを使ってスクレイピング環境を構築する](https://boardtechlog.com/2020/07/programming/dockerpython%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%82%b9%e3%82%af%e3%83%ac%e3%82%a4%e3%83%94%e3%83%b3%e3%82%b0%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e3%80%90mac%e3%83%bbwind/)
 
+### Matplotlib
+- [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
+- [Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
+  - [Matplotlib Application Interfaces (APIs)](https://matplotlib.org/stable/users/explain/api_interfaces.html#api-interfaces)
+
+### Numpy
+- [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
+- [NumPy Tutorial- W3School](https://www.w3schools.com/python/numpy/default.asp)
+
 ### OOP
 - [Object-Oriented Programming for Data Scientists
 ](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-8d4d976b6af8)
