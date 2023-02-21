@@ -14,7 +14,18 @@ layout: archives
 ### Selenium
 - [How to Automate Login using Selenium in Python](https://www.thepythoncode.com/article/automate-login-to-websites-using-selenium-in-python)
 - [Selenium with Python 4. Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html)
-- [【Python】エラー対策「システムに接続されたデバイスが機能していません。 (0x1F)」](https://miya-mitsu.com/python-0x1ferror/)
+- [Selenium XPath Tutorial - XPath in Selenium WebDriver | XPath Full Tutorial | SoftwareTestingMentor](https://youtu.be/U0WMFjnbb4I)
+  - //tagname[@Attribute='Value']
+  - //tagname[starts-with(@Attribute,'Value')]
+  - //tagname[contains(@Attribute,'Value')]
+  - //tagname[text()='ActualText']
+  - //tagname[@Attribute='Value' or @Attribute='Value']
+  - //tagname[@Attribute='Value' and @Attribute='Value']
+  - //tagname[@Attribute='Value']//child::tagname
+  - //tagname[@Attribute='Value']//parent::tagname
+  - //tagname[@Attribute='Value']//self::tagname
+  - //tagname[@Attribute='Value']//decendant::tagname
+  - //tagname[@Attribute='Value']//ancestor::tagname
 
 ### Pandas
 - [pandas documentation](https://pandas.pydata.org/docs/) --> Read "getting started"
@@ -41,7 +52,11 @@ layout: archives
 - [How to Read Robots.txt](https://www.seerinteractive.com/insights/how-to-read-robots-txt)
 - [Concurrent Web Scraping with Selenium Grid and Docker Swarm](https://testdriven.io/blog/concurrent-web-scraping-with-selenium-grid-and-docker-swarm/)
 - [Docker+Pythonを使ってスクレイピング環境を構築する](https://boardtechlog.com/2020/07/programming/dockerpython%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%82%b9%e3%82%af%e3%83%ac%e3%82%a4%e3%83%94%e3%83%b3%e3%82%b0%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e3%80%90mac%e3%83%bbwind/)
-
+- [GitHub repo of Numpy](https://github.com/numpy/numpy)
+- Sending emails
+  - [Sending Emails With Python](https://realpython.com/python-send-email/)
+  - [How to Send Emails using Python: Tutorial with examples](https://www.justintodata.com/send-email-using-python-tutorial/)
+ 
 ### Matplotlib
 - [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
 - [Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
