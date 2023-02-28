@@ -125,6 +125,8 @@ layout: archives
     - create a requirments file with "pip freeze > requirments.txt"
     - push everything to the remote repo.
   - [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
+- [Create Executable of Python Script using PyInstaller](https://datatofish.com/executable-pyinstaller/)
+  - "pyinstaller --onefile hello.py" replace the filename.
 - functions and tools
   - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
     - "f{ }" => f-strings, a.k.a. formatted string literals.
