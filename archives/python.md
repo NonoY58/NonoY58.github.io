@@ -4,6 +4,9 @@ layout: archives
 
 # Python Document
 
+### SQL
+- [https://realpython.com/python-sqlite-sqlalchemy/](Data Management With Python, SQLite, and SQLAlchemy)
+
 ### Beautiful Soup 4
 - [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -26,6 +29,7 @@ layout: archives
   - //tagname[@Attribute='Value']//self::tagname
   - //tagname[@Attribute='Value']//decendant::tagname
   - //tagname[@Attribute='Value']//ancestor::tagname
+- [Webscrape Google Map Reviews Using Selenium Python](https://www.linkedin.com/pulse/webscrape-google-map-reviews-using-selenium-python-choy-siew-wearn?trk=pulse-article_more-articles_related-content-card)
 
 ### Pandas
 - [pandas documentation](https://pandas.pydata.org/docs/) --> Read "getting started"
@@ -126,7 +130,7 @@ layout: archives
     - push everything to the remote repo.
   - [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
 - [Create Executable of Python Script using PyInstaller](https://datatofish.com/executable-pyinstaller/)
-  - "pyinstaller --onefile hello.py" replace the filename.
+  - "pyinstaller --onefile --noconsole hello.py" replace the filename.
 - functions and tools
   - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
     - "f{ }" => f-strings, a.k.a. formatted string literals.
