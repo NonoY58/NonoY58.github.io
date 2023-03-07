@@ -5,19 +5,13 @@ layout: archives
 # Python Document
 
 ### SQL
-- [https://realpython.com/python-sqlite-sqlalchemy/](Data Management With Python, SQLite, and SQLAlchemy)
-
-### Beautiful Soup 4
-- [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
-- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- type of object
-  - class 'bs4.element.ResultSet' -> list
-  - class 'bs4.element.Tag' -> tag
+- [Data Management With Python, SQLite, and SQLAlchemy](https://realpython.com/python-sqlite-sqlalchemy/)
 
 ### Selenium
+- [[OOP] Modern Web Automation With Python and Selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
 - [How to Automate Login using Selenium in Python](https://www.thepythoncode.com/article/automate-login-to-websites-using-selenium-in-python)
 - [Selenium with Python 4. Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html)
-- [Selenium XPath Tutorial - XPath in Selenium WebDriver | XPath Full Tutorial | SoftwareTestingMentor](https://youtu.be/U0WMFjnbb4I)
+- [Selenium XPath Tutorial - XPath in Selenium WebDriver, XPath Full Tutorial, SoftwareTestingMentor](https://youtu.be/U0WMFjnbb4I)
   - //tagname[@Attribute='Value']
   - //tagname[starts-with(@Attribute,'Value')]
   - //tagname[contains(@Attribute,'Value')]
@@ -61,6 +55,14 @@ layout: archives
   - [Sending Emails With Python](https://realpython.com/python-send-email/)
   - [How to Send Emails using Python: Tutorial with examples](https://www.justintodata.com/send-email-using-python-tutorial/)
  
+
+### Beautiful Soup 4
+- [Beautiful Soup 4 Tutorial #1 - Web Scraping With Python](https://www.youtube.com/watch?v=gRLHr664tXA)
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- type of object
+  - class 'bs4.element.ResultSet' -> list
+  - class 'bs4.element.Tag' -> tag
+
 ### Matplotlib
 - [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
 - [Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
@@ -156,6 +158,7 @@ layout: archives
     - **A library** is an umbrella term referring to a reusable chunk of code. However, it is often assumed that while **a package** is a collection of **modules**, a **library** is a collection of **packages**.
       - [Top 15 Python Libraries for Data Science](https://learnpython.com/blog/python-libraries-for-data-science/)
   - [Business_logic_wiki](https://en.wikipedia.org/wiki/Business_logic)
+  - [The Terminal: First Steps and Useful Commands](https://realpython.com/terminal-commands/)
 
 - [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/)
   - PyPI; Python Package Index is a repository containing several hundred thousand packages.  

@@ -20,6 +20,10 @@
   link: /archives/jekyll.html
 - name: C++
   link: /archives/cplusplus.html
+- name: C#
+  link: /archives/csharp.html
+- name: Linux
+  link: /archives/Linux.html
 - name: FastAPI
   link: /archives/fastapi.html
 - name: Other Topics
