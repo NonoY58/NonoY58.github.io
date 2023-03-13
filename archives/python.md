@@ -4,6 +4,50 @@ layout: archives
 
 # Python Document
 
+### Open CV
+- [OpenCV Tutorial: A Guide to Learn OpenCV in Python](https://www.mygreatlearning.com/blog/opencv-tutorial-in-python/)
+
+
+### Matplotlib
+- [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
+- [Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
+  - [Matplotlib Application Interfaces (APIs)](https://matplotlib.org/stable/users/explain/api_interfaces.html#api-interfaces)
+
+
+### Numpy
+- [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
+- [NumPy Tutorial- W3School](https://www.w3schools.com/python/numpy/default.asp)
+
+
+### Image Processing 
+- [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
+- [Pillow’s documentation](https://pillow.readthedocs.io/en/stable/reference/index.html)
+  - [Image Module](https://pillow.readthedocs.io/en/stable/reference/Image.html)
+  - [Image file formats](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
+  - PIL, Python Pillow Library, is predecessor of Pillow
+
+- Image format
+  - [Python PIL \| tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+    - "raw" is just a name of defualt encoder
+  - [QImage Class](https://doc.qt.io/qt-6/qimage.html)
+    - Image formats documented here are available 
+    - QImage has a number of image format. In this project, "Format_RGBA8888" that is refered in the following link was selected, because it worked.
+  - [PIL Image to QPixmap conversion issue](https://stackoverflow.com/questions/34697559/pil-image-to-qpixmap-conversion-issue)
+    - the conversion worked by adding stated lines here
+  - [Convert BGR and RGB with Python, OpenCV (cvtColor)](https://note.nkmk.me/en/python-opencv-bgr-rgb-cvtcolor/) 
+    - OpenCV is BGR, Pillow is RGB in the order of colors
+  - [Pixmap Conversion](https://doc.qt.io/qt-6/qpixmap.html#:~:text=A%20QPixmap%20object%20can%20be,QPixmap%20using%20the%20fromImage().)
+    -  a QImage can be converted into a QPixmap using the fromImage(). 
+  - [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
+    - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
+  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+  - [ImageFilter Module](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html)
+  - [concepts of Pillow](https://pillow.readthedocs.io/en/stable/handbook/concepts.html)
+  - [ImageEnhance Module](https://pillow.readthedocs.io/en/stable/reference/ImageEnhance.html#)
+  - [How to adjust brightness, contrast, sharpness and saturation of images in PIL (pillow) – with Python Examples](https://holypython.com/python-pil-tutorial/how-to-adjust-brightness-contrast-sharpness-and-saturation-of-images-in-python-pil/)
+  - [Dictionaries and JSON /| Digital Scholarship Resources](https://heardlibrary.github.io/digital-scholarship/script/python/json/)
+
+
 ### SQL
 - [Data Management With Python, SQLite, and SQLAlchemy](https://realpython.com/python-sqlite-sqlalchemy/)
 
@@ -63,14 +107,7 @@ layout: archives
   - class 'bs4.element.ResultSet' -> list
   - class 'bs4.element.Tag' -> tag
 
-### Matplotlib
-- [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
-- [Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
-  - [Matplotlib Application Interfaces (APIs)](https://matplotlib.org/stable/users/explain/api_interfaces.html#api-interfaces)
 
-### Numpy
-- [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
-- [NumPy Tutorial- W3School](https://www.w3schools.com/python/numpy/default.asp)
 
 ### OOP
 - [Object-Oriented Programming for Data Scientists
@@ -220,38 +257,3 @@ layout: archives
 
 - [Using PyInstaller to Easily Distribute Python Applications](https://realpython.com/pyinstaller-python/)
 
-### Image Processing 
-- [Learn basics through Image Processing project here.](/projects/imageProcessing.html)
-- [Pillow’s documentation](https://pillow.readthedocs.io/en/stable/reference/index.html)
-  - [Image Module](https://pillow.readthedocs.io/en/stable/reference/Image.html)
-  - [Image file formats](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
-  - PIL, Python Pillow Library, is predecessor of Pillow
-
-- Image format
-  - [Python PIL \| tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
-    - "raw" is just a name of defualt encoder
-  - [QImage Class](https://doc.qt.io/qt-6/qimage.html)
-    - Image formats documented here are available 
-    - QImage has a number of image format. In this project, "Format_RGBA8888" that is refered in the following link was selected, because it worked.
-  - [PIL Image to QPixmap conversion issue](https://stackoverflow.com/questions/34697559/pil-image-to-qpixmap-conversion-issue)
-    - the conversion worked by adding stated lines here
-  - [Convert BGR and RGB with Python, OpenCV (cvtColor)](https://note.nkmk.me/en/python-opencv-bgr-rgb-cvtcolor/) 
-    - OpenCV is BGR, Pillow is RGB in the order of colors
-  - [Pixmap Conversion](https://doc.qt.io/qt-6/qpixmap.html#:~:text=A%20QPixmap%20object%20can%20be,QPixmap%20using%20the%20fromImage().)
-    -  a QImage can be converted into a QPixmap using the fromImage(). 
-  - [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
-    - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
-  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
-  - [ImageFilter Module](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html)
-  - [concepts of Pillow](https://pillow.readthedocs.io/en/stable/handbook/concepts.html)
-  - [ImageEnhance Module](https://pillow.readthedocs.io/en/stable/reference/ImageEnhance.html#)
-  - [How to adjust brightness, contrast, sharpness and saturation of images in PIL (pillow) – with Python Examples](https://holypython.com/python-pil-tutorial/how-to-adjust-brightness-contrast-sharpness-and-saturation-of-images-in-python-pil/)
-  - [Dictionaries and JSON /| Digital Scholarship Resources](https://heardlibrary.github.io/digital-scholarship/script/python/json/)
-
-### {{ layout.title2 }}
-
-
-### {{ layout.title3 }}
-
-
-### {{ layout.title4 }}
