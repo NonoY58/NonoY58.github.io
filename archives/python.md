@@ -6,7 +6,17 @@ layout: archives
 
 ### Open CV
 - [OpenCV Tutorial: A Guide to Learn OpenCV in Python](https://www.mygreatlearning.com/blog/opencv-tutorial-in-python/)
-
+- [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o)
+  - [OpenCV with Python in 4 Hours](https://github.com/jasmcaus/opencv-course)
+- [Filling holes in an image using OpenCV ( Python / C++ )  ](https://learnopencv.com/filling-holes-in-an-image-using-opencv-python-c/)
+- [Smoothing Images 4. Bilateral Filtering](https://docs.opencv.org/4.x/d4/d86/group__imgproc__filter.html#ga9d7064d478c95d60003cf839430737ed)
+  - bilateral filter is highly effective in noise removal while keeping edges sharp
+- [Image Segmentation with Watershed Algorithm](https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html)
+- [Watershed OpenCV](https://pyimagesearch.com/2015/11/02/watershed-opencv/)
+  - circle fitting
+- [Morphological Transformations](https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html)
+- [Contour Properties](https://docs.opencv.org/3.4/d1/d32/tutorial_py_contour_properties.html)
+- [Watershed segmentation(scikit-image)](https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_watershed.html)
 
 ### Matplotlib
 - [Linestyles in Matplotlib Python](https://www.geeksforgeeks.org/linestyles-in-matplotlib-python/)
@@ -40,12 +50,12 @@ layout: archives
     -  a QImage can be converted into a QPixmap using the fromImage(). 
   - [ImageQt Module](https://pillow.readthedocs.io/en/stable/reference/ImageQt.html)
     - The ImageQt module contains support for creating PyQt6, PySide6, PyQt5 or PySide2 QImage objects from PIL images.
-  - [Python PIL | tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
+  - [Python PIL, tobytes() Method](https://www.geeksforgeeks.org/python-pil-tobytes-method/)
   - [ImageFilter Module](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html)
   - [concepts of Pillow](https://pillow.readthedocs.io/en/stable/handbook/concepts.html)
   - [ImageEnhance Module](https://pillow.readthedocs.io/en/stable/reference/ImageEnhance.html#)
   - [How to adjust brightness, contrast, sharpness and saturation of images in PIL (pillow) – with Python Examples](https://holypython.com/python-pil-tutorial/how-to-adjust-brightness-contrast-sharpness-and-saturation-of-images-in-python-pil/)
-  - [Dictionaries and JSON /| Digital Scholarship Resources](https://heardlibrary.github.io/digital-scholarship/script/python/json/)
+  - [Dictionaries and JSON, Digital Scholarship Resources](https://heardlibrary.github.io/digital-scholarship/script/python/json/)
 
 
 ### SQL
