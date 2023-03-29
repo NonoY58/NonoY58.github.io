@@ -26,5 +26,7 @@
   link: /archives/linux.html
 - name: FastAPI
   link: /archives/fastapi.html
+- name: Biology
+  link: /archives/biology.html
 - name: Other Topics
   link: /archives/otherTopics.html
