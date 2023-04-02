@@ -4,6 +4,11 @@ layout: archives
 
 # Python Document
 
+### Machine Learning
+- [Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
+- [Python Machine Learning Tutorial (Data Science)](https://www.youtube.com/watch?v=7eh4d6sabA0)
+
+
 ### Open CV
 - [OpenCV Tutorial: A Guide to Learn OpenCV in Python](https://www.mygreatlearning.com/blog/opencv-tutorial-in-python/)
 - [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o)
@@ -135,8 +140,7 @@ layout: archives
     - [What is Abstraction in Programming? Explained for Beginners](https://www.freecodecamp.org/news/what-is-abstraction-in-programming-for-beginners/)
 
 
-### Machine Learning
-- [Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
+
 
 ### Python Basics
 - [Python Basics](https://realpython.com/tutorials/basics/)
@@ -178,6 +182,7 @@ layout: archives
     - create a requirments file with "pip freeze > requirments.txt"
     - push everything to the remote repo.
   - [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
+    - need to install ipython kernel with the following command: "ipython kernel install --user --name=venv"
 - [Create Executable of Python Script using PyInstaller](https://datatofish.com/executable-pyinstaller/)
   - "pyinstaller --onefile --noconsole hello.py" replace the filename.
 - functions and tools
