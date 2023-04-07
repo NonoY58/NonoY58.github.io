@@ -7,7 +7,9 @@ layout: archives
 ### Machine Learning
 - [Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
 - [Python Machine Learning Tutorial (Data Science)](https://www.youtube.com/watch?v=7eh4d6sabA0)
-- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (book, GitHub)](https://github.com/ageron/handson-ml3/blob/main/01_the_machine_learning_landscape.ipynb)
+- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (book)](https://colab.research.google.com/github/ageron/handson-ml3/blob/main/index.ipynb#scrollTo=FivFb8xzt9ll)
+  - [GitHub](https://github.com/ageron/handson-ml3/blob/main/01_the_machine_learning_landscape.ipynb)
+  - [Installation](https://github.com/ageron/handson-ml3/blob/main/INSTALL.md)
 
 
 ### Open CV
