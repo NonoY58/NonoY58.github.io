@@ -10,6 +10,7 @@ layout: archives
 - [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (book)](https://colab.research.google.com/github/ageron/handson-ml3/blob/main/index.ipynb#scrollTo=FivFb8xzt9ll)
   - [GitHub](https://github.com/ageron/handson-ml3/blob/main/01_the_machine_learning_landscape.ipynb)
   - [Installation](https://github.com/ageron/handson-ml3/blob/main/INSTALL.md)
+  - [Khanacademy - free learning of math](https://www.khanacademy.org/)
 
 
 ### Open CV
