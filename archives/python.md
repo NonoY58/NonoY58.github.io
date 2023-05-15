@@ -195,6 +195,7 @@ layout: archives
     - [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
     - [Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/)
   - [How to Use Python Lambda Functions](https://realpython.com/python-lambda/)
+  - [enum in Python](https://www.geeksforgeeks.org/enum-in-python/)
   - [Python enumerate(): Simplify Looping With Counters](https://realpython.com/python-enumerate/)
   - [Using Python datetime to Work With Dates and Times](https://realpython.com/python-datetime/)
   - [Python eval(): Evaluate Expressions Dynamically](https://realpython.com/python-eval-function/)
