@@ -1,5 +1,7 @@
 # This file is to navigate in archives directory.
 
+- name: Java
+  link: /archives/java.html
 - name: Python
   link: /archives/python.html
 - name: VScode
