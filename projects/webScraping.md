@@ -10,5 +10,4 @@ title: Projects
   - Because it is releasing a huge number of videos, I've made a tool to create a list of lectures and their links.
 
 
-- []()
-  - To be created...
+- To be created...
