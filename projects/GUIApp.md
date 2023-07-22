@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-# GUI App
+# Desktop App
 
 Here I show you some of my GUI apps using PyQt6.
 
