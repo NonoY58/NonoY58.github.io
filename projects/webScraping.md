@@ -11,5 +11,4 @@ title: Projects
 
 
 - []()
-
-# Things that should be avoided
+  - To be created...
