@@ -4,7 +4,6 @@ title: Projects
 ---
 
 # Desktop App
-
 Here I show you some of my GUI apps using PyQt6.
 
 
