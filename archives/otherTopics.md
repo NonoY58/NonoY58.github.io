@@ -8,11 +8,13 @@ layout: archives
 - [いわしのカレー粉焼き](https://www.orangepage.net/recipes/detail_121600)
 - [アジのパクパクバターしょうゆソテー](https://recipe.yamasa.com/recipes/2531)
 - [鮭の焼き方](https://www.nichireifoods.co.jp/media/11032/)
+- [サバの焼き方](https://www.nichireifoods.co.jp/media/13581/)
 
 - [コーンとツナのポン酢しょうゆ炒め](https://delishkitchen.tv/recipes/362257803705844014)
 - [ごぼうとイワシのマヨサラダ](https://www.kurashiru.com/recipes/fd54bca8-4739-4976-a09c-209ead2da087)
 
 - [定食の味！豚の生姜焼き](https://cookpad.com/recipe/5423593)
+- [基本のポークソテー](https://www.kurashiru.com/recipes/7c15e202-adde-4a2d-b385-7977538bb345)
 - [基本の卵焼き（厚焼き玉子）のレシピ/作り方](https://www.sirogohan.com/recipe/atuyaki/)
 - [めっちゃ簡単絶品もやし炒め](https://cookpad.com/recipe/2352809)
 - [フライパンで簡単～☆きんぴらごぼう☆～](https://cookpad.com/recipe/1743175)
