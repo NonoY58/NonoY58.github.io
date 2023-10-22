@@ -18,7 +18,8 @@ layout: archives
 - [基本の卵焼き（厚焼き玉子）のレシピ/作り方](https://www.sirogohan.com/recipe/atuyaki/)
 - [めっちゃ簡単絶品もやし炒め](https://cookpad.com/recipe/2352809)
 - [フライパンで簡単～☆きんぴらごぼう☆～](https://cookpad.com/recipe/1743175)
-
+- [さつまいもをおいしく簡単に蒸すコツ｜フライパン](https://tokubai.co.jp/news/articles/3692)
+- test sentence
 
 ### Physics
 - [DR. QUANTUM - DOUBLE SLIT EXPERIMENT](https://www.youtube.com/watch?v=Q1YqgPAtzhohttps://www.youtube.com/watch?v=Q1YqgPAtzho)
