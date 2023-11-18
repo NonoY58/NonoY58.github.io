@@ -16,6 +16,7 @@ layout: archives
 - [定食の味！豚の生姜焼き](https://cookpad.com/recipe/5423593)
 - [基本のポークソテー](https://www.kurashiru.com/recipes/7c15e202-adde-4a2d-b385-7977538bb345)
 - [基本の卵焼き（厚焼き玉子）のレシピ/作り方](https://www.sirogohan.com/recipe/atuyaki/)
+- [基本のフレンチトースト](https://www.kurashiru.com/recipes/13dab368-7f0f-4885-8d72-905ba3ec3706)
 - [めっちゃ簡単絶品もやし炒め](https://cookpad.com/recipe/2352809)
 - [フライパンで簡単～☆きんぴらごぼう☆～](https://cookpad.com/recipe/1743175)
 - [さつまいもをおいしく簡単に蒸すコツ｜フライパン](https://tokubai.co.jp/news/articles/3692)
