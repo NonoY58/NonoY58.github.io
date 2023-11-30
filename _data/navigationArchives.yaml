@@ -1,7 +1,7 @@
 # This file is to navigate in archives directory.
 
-- name: Java
-  link: /archives/java.html
+- name: ML/DL
+  link: /archives/MLDL.html
 - name: Python
   link: /archives/python.html
 - name: VScode
@@ -20,6 +20,8 @@
   link: /archives/markdown.html
 - name: Jekyll
   link: /archives/jekyll.html
+- name: Java
+  link: /archives/java.html
 - name: C++
   link: /archives/cplusplus.html
 - name: C#
