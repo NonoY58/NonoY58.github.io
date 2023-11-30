@@ -8,7 +8,7 @@ layout: archives
 
 <table>
   <tr>
-    <caption>Courses</caption>
+    <caption><strong>Courses</strong></caption>
     <th>Course</th>
     <th>Topic</th>
     <th>Memo</th>
@@ -24,30 +24,19 @@ layout: archives
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://www.kaggle.com/learn/intermediate-machine-learning">Intermediate Machine Learning</a></td>
+    <td>empty</td>
     <td>
-    Imputation, Categorical Variables(ODE, OHE), Pipelines, Cross-Validation, XGBoost, Data Leakage
+    ...
     </td>
     <td></td>
   </tr>
-  <tr>
-    <td><a href="https://www.kaggle.com/learn/data-visualization">Data Visualizetion</a></td>
-    <td>seaborn, Line Charts, Bar Charts and Heatmaps, Scatter Plots, Distributions, Custum Styles</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.kaggle.com/learn/feature-engineering">Feature Engineering</a></td>
-    <td>
-    Mutual Information, K-Means, Principal Component(PCA), Target Encoding
-    </td>
-    <td></td>
-  </tr>
+
 </table>
 
 <table>
   <caption>Competitions</caption>
   <tr>
-    <th>Competition</th>
+    <th><strong>Competition</strong></th>
     <th>Memo</th>
   </tr>
   <tr>
