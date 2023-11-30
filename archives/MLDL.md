@@ -33,7 +33,7 @@ layout: archives
     <td></td>
   </tr>
   <tr>
-    <td>[Feature Engineering](https://www.kaggle.com/learn/feature-engineering)</td>
+    <td><a href="https://www.kaggle.com/learn/feature-engineering">Feature Engineering</a></td>
     <td>...</td>
     <td></td>
   </tr>
