@@ -64,6 +64,17 @@ layout: archives
   </tr>
 </table>
 
+<table>
+  <tr>
+    <caption><strong>Topics</strong></caption>
+    <th>Title</th>
+    <th>Memo</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.kaggle.com/code/carlmcbrideellis/what-is-adversarial-validation">What is Adversarial Validation?</a></td>
+    <td>Check whether train and test datasets have the same distribution.</td>
+  </tr>
+</table>
 
 ### Youtube
 -[Rob Mulla](https://www.youtube.com/@robmulla)
