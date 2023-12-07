@@ -13,7 +13,7 @@ layout: archives
 |[Inviting collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/)|not checked yet|
 |[How to Publish a Docker Image to GitHub's Container Registry](https://dev.to/github/publishing-a-docker-image-to-githubs-container-repository-4n50)||not checked yet|
 |[Confusing git terminology](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)|from RealPython Podcast|
-|[Episode 179: Improving Your Git Developer Experience in Python](https://realpython.com/podcasts/rpp/179/)|from RealPython Podcast|
+|[Oh Shit, Git!?!](https://ohshitgit.com/)|git relog -> git reset HEAD@{index}|
 
 
 [Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY)   
@@ -58,8 +58,11 @@ layout: archives
   |**"git config user.email"**| show email configurated|
   |**"git diff "**|  show diffence|
   |**"git log"**|  show all commits in repository|
-  |**"git log --oneline"**| show all commits in repository|
+  |**"git relog"**| show all commits in across all branches|
+  |**"git reset HEAD@{index}"**| magic time machine|
 
+
+ -> git reset HEAD@{index}
 
 - ### {{ layout.title3 }}
 
