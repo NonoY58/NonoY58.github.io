@@ -6,12 +6,15 @@ layout: archives
 
 - ### {{ layout.title1 }}
 
-|topic| link| note|
-|-------|------------|-----|
+|topic| note|
+|-------|-----|
 |[Adding a local repository to GitHub using Git](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)|
-|[Adding locally hosted code to GitHub](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github) |test |checked|
-|[Inviting collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/)|test |not checked yet|
+|[Adding locally hosted code to GitHub](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github) |checked|
+|[Inviting collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/)|not checked yet|
 |[How to Publish a Docker Image to GitHub's Container Registry](https://dev.to/github/publishing-a-docker-image-to-githubs-container-repository-4n50)||not checked yet|
+|[Confusing git terminology](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)|from RealPython Podcast|
+|[Episode 179: Improving Your Git Developer Experience in Python](https://realpython.com/podcasts/rpp/179/)|from RealPython Podcast|
+
 
 [Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY)   
 [Kevin](https://www.youtube.com/watch?v=tRZGeaHPoaw)
