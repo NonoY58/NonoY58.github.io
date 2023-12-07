@@ -38,6 +38,8 @@ layout: archives
   |**"git push"**| Push| Can be omitted properties after the first push |
   |**"git reset "**|  remove a file from staging area|
   |**"git rm --cashed 'file name' "**|  remove a file from repository (get untracked)|
+  |**"git commit --amend"**|  amend the message of the last commit|
+
 
   - ##### Branching
 
@@ -49,6 +51,8 @@ layout: archives
   |**"git merge 'branch name' "**|  merge to master| Note: have to be in Master branch|
   |**"git branch -d 'branch name'"**| Delete a branch|
   |**"git pull origin 'main'"**| pull update from origin to local main branch|
+  |**"git rebase"**|  [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)|
+
 
   - ##### Check status, configuration and so on
 
@@ -62,7 +66,6 @@ layout: archives
   |**"git reset HEAD@{index}"**| magic time machine|
 
 
- -> git reset HEAD@{index}
 
 - ### {{ layout.title3 }}
 
