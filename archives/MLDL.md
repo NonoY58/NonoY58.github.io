@@ -59,7 +59,7 @@ layout: archives
     <td>Playground Series - Season 3, Episode 25, ~December.5.2023</td>
   </tr>
   <tr>
-    <td>empty</a></td>
+    <td>empty</td>
     <td>...</td>
   </tr>
 </table>
@@ -78,20 +78,21 @@ layout: archives
     <td>Select Columns</td>
     <td>
     1. List Comprehention<br>
-    obj_col = [col for col in df.columns if df[col].dtype in ["object"]]<br>
-    num_col = [col for col in df.columns if df[col].dtype in ['int64', 'float64']]<br><br>
+    <code>obj_col = [col for col in df.columns if df[col].dtype in ["object"]]</code><br>
+    <code>num_col = [col for col in df.columns if df[col].dtype in ['int64', 'float64']]</code><br><br>
     2. Select_dtypes()<br>
-    obj_col = list(df.select_dtypes(include="object"))<br>
-    num_col = list(df.select_dtypes(include="number"))<br><br>
+    <code>obj_col = list(df.select_dtypes(include="object"))</code><br>
+    <code>num_col = list(df.select_dtypes(include="number"))</code><br><br>
     </td>
   </tr>
   <tr>
     <td>Get Column Names</td>
     <td>
-    1. list(df)<br>
-    2. df.coumns
+    1. <code>list(df)</code><br>
+    2. <code>df.coumns</code>
     </td>
 </table>
+
 
 ### Youtube
 -[Rob Mulla](https://www.youtube.com/@robmulla)
