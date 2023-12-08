@@ -71,9 +71,26 @@ layout: archives
     <th>Memo</th>
   </tr>
   <tr>
-    <td><a href="https://www.kaggle.com/code/carlmcbrideellis/what-is-adversarial-validation">What is Adversarial Validation?</a></td>
-    <td>Check whether train and test datasets have the same distribution.</td>
+    <td>Adversarial Validation</td>
+    <td>Check whether train and test datasets have the same distribution. <a href="https://www.kaggle.com/code/carlmcbrideellis/what-is-adversarial-validation">What is Adversarial Validation?</a></td>
   </tr>
+  <tr>
+    <td>Select Columns</td>
+    <td>
+    1. List Comprehention<br>
+    obj_col = [col for col in df.columns if df[col].dtype in ["object"]]<br>
+    num_col = [col for col in df.columns if df[col].dtype in ['int64', 'float64']]<br><br>
+    2. Select_dtypes()<br>
+    obj_col = list(df.select_dtypes(include="object"))<br>
+    num_col = list(df.select_dtypes(include="number"))<br><br>
+    </td>
+  </tr>
+  <tr>
+    <td>Get Column Names</td>
+    <td>
+    1. list(df)<br>
+    2. df.coumns
+    </td>
 </table>
 
 ### Youtube
