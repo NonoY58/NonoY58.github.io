@@ -45,8 +45,8 @@ layout: archives
 </table>
 
 <table>
-  <caption><strong>Competitions</strong></caption>
   <tr>
+    <caption><strong>Competitions</strong></caption>
     <th>Competition</th>
     <th>Memo</th>
   </tr>
