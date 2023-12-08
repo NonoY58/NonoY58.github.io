@@ -58,10 +58,6 @@ layout: archives
     <td><a href="https://www.kaggle.com/competitions/playground-series-s3e25">Regression with a Mohs Hardness Dataset</a></td>
     <td>Playground Series - Season 3, Episode 25, ~December.5.2023</td>
   </tr>
-  <tr>
-    <td>empty</td>
-    <td>...</td>
-  </tr>
 </table>
 
 <table>
@@ -89,7 +85,7 @@ layout: archives
     <td>Get Column Names</td>
     <td>
     1. <code>list(df)</code><br>
-    2. <code>df.coumns</code>
+    2. <code>df.columns</code>
     </td>
 </table>
 
