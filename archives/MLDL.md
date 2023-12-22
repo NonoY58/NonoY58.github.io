@@ -71,6 +71,10 @@ layout: archives
     <td>Check whether train and test datasets have the same distribution. <a href="https://www.kaggle.com/code/carlmcbrideellis/what-is-adversarial-validation">What is Adversarial Validation?</a></td>
   </tr>
   <tr>
+    <td>Cross Validation Visualization</td>
+    <td>How data is split by each method <a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_cv_indices.html#sphx-glr-auto-examples-model-selection-plot-cv-indices-py">Visualizing cross-validation behavior in scikit-learn</a></td>
+  </tr>
+  <tr>
     <td>Select Columns</td>
     <td>
     1. List Comprehention<br>
