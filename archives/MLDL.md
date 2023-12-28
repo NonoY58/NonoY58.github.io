@@ -2,11 +2,10 @@
 layout: archives
 ---
 
-
 # Machine Learning
 ### [Kaggle](https://www.kaggle.com/)
 
-<table>
+<!-- <table>
   <tr>
     <caption><strong>Topics</strong></caption>
     <th>Title</th>
@@ -70,7 +69,7 @@ layout: archives
     1. <code>list(df)</code><br>
     2. <code>df.columns</code>
     </td>
-</table>
+</table> -->
 
 <!-- <table>
   <tr>
