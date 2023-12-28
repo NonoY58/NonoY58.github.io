@@ -88,8 +88,7 @@ layout: archives
     2. <code>df.columns</code>
     </td>
 </table>
-
-
+<!-- 
 ### Youtube
 -[Rob Mulla](https://www.youtube.com/@robmulla)
   - [A Gentle Introduction to Pandas Data Analysis (on Kaggle)](https://youtu.be/_Eb0utIRdkw)
@@ -98,6 +97,5 @@ layout: archives
 -[Ryan Nolan](https://www.youtube.com/@RyanNolanData)
   - [Beginner Data Science Portfolio Project Walkthrough (Kaggle Titanic)](https://youtu.be/6IGx7ZZdS74)
 
-
 # Deep Learning
-plan: January 2024 ~
+plan: January 2024 ~ -->
