@@ -42,7 +42,8 @@ layout: archives
     </td>
     <td></td>
   </tr>
-</table><table>
+</table>
+<!-- <table>
   <tr>
     <caption><strong>Competitions</strong></caption>
     <th>Competition</th>
@@ -56,7 +57,8 @@ layout: archives
     <td><a href="https://www.kaggle.com/competitions/playground-series-s3e25">Regression with a Mohs Hardness Dataset</a></td>
     <td>Playground Series - Season 3, Episode 25, ~December.5.2023</td>
   </tr>
-</table><table>
+</table> -->
+<table>
   <tr>
     <caption><strong>Topics</strong></caption>
     <th>Title</th>
