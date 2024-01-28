@@ -101,7 +101,7 @@ layout: archives
 -[Ryan Nolan](https://www.youtube.com/@RyanNolanData)
   - [Beginner Data Science Portfolio Project Walkthrough (Kaggle Titanic)](https://youtu.be/6IGx7ZZdS74)
 
-[Stat Quest by Josh Starmer](https://www.youtube.com/@statquest)
+-[Stat Quest by Josh Starmer](https://www.youtube.com/@statquest)
   - [AdaBoost](https://www.youtube.com/watch?v=LsK-xG1cLYA)
   - [Gradient Boost](https://www.youtube.com/watch?v=3CC4N4z3GJc)
 
