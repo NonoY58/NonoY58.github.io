@@ -23,6 +23,10 @@ layout: archives
   - Docker-compose.yaml
     - Orchestrates multi-container Docker applications.
 
+- Interactive command line
+  - command `docker exec -it kaggle5 /bin/bash`
+  - to exit `Ctrl + D`
+
 - ### {{ layout.title2 }}
 
 |command| explanation| note|
