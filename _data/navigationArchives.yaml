@@ -1,5 +1,7 @@
 # This file is to navigate in archives directory.
 
+- name: AWS
+  link: /archives/aws.html
 - name: ML/DL
   link: /archives/MLDL.html
 - name: Python
