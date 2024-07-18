@@ -159,7 +159,7 @@ layout: archives
                             <picture>
                             
                                 <img alt="" width="700" height="365" loading="lazy" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_wDp3rB0g9nfu0a7V.jpg">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_wDp3rB0g9nfu0a7V.jpg">
                             </picture>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="479" loading="lazy" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_KWdQJtVKbZOA7wS-.jpg">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_KWdQJtVKbZOA7wS-.jpg">
                             </picture>
                         </div>
                     </div>
@@ -614,7 +614,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="268" loading="lazy" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_IoFRfh0fZF7o99Pz.png">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_IoFRfh0fZF7o99Pz.png">
                             </picture>
                         </div>
                     </div>
@@ -624,7 +624,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="286" loading="lazy" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_-Ygdk5l4SyWOo9Of.png">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_-Ygdk5l4SyWOo9Of.png">
                             </picture>
                         </div>
                     </div>
@@ -649,7 +649,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="418" loading="eager" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_CIN9GQdKLwJt_tK4.png">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_CIN9GQdKLwJt_tK4.png">
                             </picture>
                         </div>
                     </div>
@@ -687,7 +687,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="418" loading="lazy" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_FMZm6iwa6Bu8YmH0.png">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_FMZm6iwa6Bu8YmH0.png">
                             </picture>
                         </div>
                     </div>
@@ -737,7 +737,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="356" loading="eager" role="presentation"
-                                    src="assets\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_HI8EzgiOc8wd-6iT.jpg">
+                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_HI8EzgiOc8wd-6iT.jpg">
                             </picture>
                         </div>
                     </div>
