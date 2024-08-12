@@ -605,6 +605,7 @@ layout: archives
                             <picture>
                                 <img alt="" width="700" height="286" loading="lazy" role="presentation"
                                     src="images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_-Ygdk5l4SyWOo9Of.png">
+                                    archives\images\AWS_Cloud_Practitioner_Certification_CheatSheet_files\0_-Ygdk5l4SyWOo9Of.png
                             </picture>
                         </div>
                     </div>
