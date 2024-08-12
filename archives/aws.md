@@ -2,11 +2,12 @@
 layout: archives
 ---
 
-
 # aws topics
 
+[The original one](https://sathittham.medium.com/aws-cloud-practitioner-certification-cheat-sheet-1191b36137a8)
+
 <!DOCTYPE html>
-<!-- saved from url=(0154)file:///C:/Users/r00481995/Desktop/AWS%20Cloud%20Practitioner%20Certification%20Cheat%20Sheet%20_%20by%20Sathittham%20(Phoo)%20Sangthong%20_%20Medium.html -->
+
 <html lang="en" data-rh="lang">
 
 <head>
@@ -44,7 +45,6 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -67,7 +67,6 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -119,7 +118,6 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -152,14 +150,12 @@ layout: archives
                 <blockquote>
                     <p id="3367">IA: Infrequency Access</p>
                 </blockquote>
-
                 <figure>
                     <div role="button" tabindex="0">
                         <div>
                             <picture>
-                            
                                 <img alt="" width="700" height="365" loading="lazy" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_wDp3rB0g9nfu0a7V.jpg">
+                                    src="\images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_wDp3rB0g9nfu0a7V.jpg">
                             </picture>
                         </div>
                     </div>
@@ -167,13 +163,10 @@ layout: archives
                             target="_blank">https://aws.amazon.com/s3/storage-classes/</a>
                     </figcaption>
                 </figure>
-
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -206,7 +199,6 @@ layout: archives
                         Network)</li>
                 </ul>
                 <blockquote>
-
                     <p id="3443">OLAP: Online Analytics Processing</p>
                 </blockquote>
                 <figure>
@@ -214,7 +206,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="479" loading="lazy" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_KWdQJtVKbZOA7wS-.jpg">
+                                    src="\images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_KWdQJtVKbZOA7wS-.jpg">
                             </picture>
                         </div>
                     </div>
@@ -245,7 +237,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -269,7 +260,6 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -306,7 +296,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -334,7 +323,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -356,7 +344,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -387,7 +374,6 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
@@ -398,7 +384,7 @@ layout: archives
                         24/7 support for advanced</li>
                     <li id="062b"><strong>WAF</strong> — Firewall to filter incoming
                         requests based on rules</li>
-                    <li id="6b2b"><strong>KMS</strong> — Encryption keys managed by AWS
+                    <li id="6b2b"><strong>KMS</strong> — Encryption keys managed by AWS, Key Management Service
                     </li>
                     <li id="6c93"><strong>CloudHSM</strong> — Hardware encryption, we
                         manage encryption keys</li>
@@ -429,7 +415,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -461,7 +446,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -501,7 +485,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -536,7 +519,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -569,7 +551,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -592,7 +573,6 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
         <div>
@@ -614,7 +594,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="268" loading="lazy" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_IoFRfh0fZF7o99Pz.png">
+                                    src="\images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_IoFRfh0fZF7o99Pz.png">
                             </picture>
                         </div>
                     </div>
@@ -624,7 +604,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="286" loading="lazy" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_-Ygdk5l4SyWOo9Of.png">
+                                    src="images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_-Ygdk5l4SyWOo9Of.png">
                             </picture>
                         </div>
                     </div>
@@ -633,12 +613,10 @@ layout: archives
         </div>
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
-
     <div>
         <div>
             <div>
                 <h1 id="8309">AWS Well-Architected and the Six Pillars</h1>
-
                 <p id="b3f7">The AWS Well-Architected Framework describes key concepts,
                     design
                     principles, and architectural best practices for designing and running workloads in the cloud. By
@@ -649,7 +627,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="418" loading="eager" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_CIN9GQdKLwJt_tK4.png">
+                                    src="\images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_CIN9GQdKLwJt_tK4.png">
                             </picture>
                         </div>
                     </div>
@@ -687,14 +665,13 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="418" loading="lazy" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_FMZm6iwa6Bu8YmH0.png">
+                                    src="images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_FMZm6iwa6Bu8YmH0.png">
                             </picture>
                         </div>
                     </div>
                 </figure>
             </div>
         </div>
-
     </div>
     <div role="separator"><span></span><span></span><span></span></div>
     <div>
@@ -737,7 +714,7 @@ layout: archives
                         <div>
                             <picture>
                                 <img alt="" width="700" height="356" loading="eager" role="presentation"
-                                    src="\images\AWS Cloud Practitioner Certification Cheat Sheet_files/0_HI8EzgiOc8wd-6iT.jpg">
+                                    src="images\AWS_Cloud_Practitioner_Certification_Cheat_Sheet_files\0_HI8EzgiOc8wd-6iT.jpg">
                             </picture>
                         </div>
                     </div>
@@ -787,11 +764,8 @@ layout: archives
             </div>
         </div>
     </div>
-
     <div></div>
-
 </body>
-
 </html>
 
 <!-- regular expression to specify all classes ==> class="[^"]*" -->
