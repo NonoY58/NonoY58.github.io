@@ -52,15 +52,19 @@ layout: archives
                         Size (CPU + RAM) + Storage + Security Group + EC2 User Data</li>
                     <li id="59e4"><strong>Security Groups</strong> — Firewall attached
                         to the EC2 instance</li>
+                    <li id="5c8c"><strong>Classic Ports to know </strong>○ SSH=22, FTP=21, SFTP=22, HTTP=80, HTTPS=443, RDP=3389</li>
                     <li id="e487"><strong>EC2 User Data </strong>— Script launched at
                         the first start of an instance</li>
                     <li id="5d18"><strong>SSH</strong> — Start terminal into our EC2
                         Instances (port 22)</li>
                     <li id="ea08"><strong>EC2 Instance Role </strong>— Link to IAM
                         roles</li>
-                    <li id="eb63"><strong>Purchasing Options </strong>— On-demand,
-                        Spot, Reserved (Standard + Convertible), Dedicated Host, Dedicated Instance</li>
+                    <li id="eb63"><strong>Purchasing Options </strong>— On-demand, Reserved (Standard + Convertible), Savings Plan, Spot, Dedicated Host, Dedicated Instance, Capacity Reservations</li>
                 </ul>
+                <blockquote>
+                    AMI: Amazon Machine Image<br>
+                    RDP: Remote Desktop Protocol
+                </blockquote>
             </div>
         </div>
     </div>
@@ -77,7 +81,7 @@ layout: archives
                         instance with our customizations</li>
                     <li id="3fb8"><strong>EC2 Image Builder </strong>— Automatically
                         build, test, and distribute AMIs</li>
-                    <li id="ccc2"><strong>EC2</strong> Instance Store<br>○
+                    <li id="ccc2"><strong>EC2 Instance Store </strong><br>○
                         High-performance hardware disk attached to our EC2 instance<br>○ Lost if our instance is
                         stopped/terminated</li>
                     <li id="a50b"><strong>EFS</strong> — Network file system, can be
@@ -91,7 +95,7 @@ layout: archives
                         Computing Linux file system</li>
                 </ul>
                 <blockquote>
-                    <p id="db99">EBS: Elastic Block Store<br>EFS: Elastic File System</p>
+                    EBS: Elastic Block Store<br>EFS: Elastic File System
                 </blockquote>
             </div>
         </div>
@@ -102,16 +106,18 @@ layout: archives
             <div>
                 <h1 id="014b">ELB &amp; ASG</h1>
                 <ul>
-                    <li id="d75f"><strong>High Availability</strong> vs
-                        <strong>Scalability</strong> (vertical and horizontal) vs <strong>Elasticity</strong> vs
-                        <strong>Agility</strong> in the Cloud
+                    <li>
+                        In the cloud, <br><strong>○ High Availability</strong>: Having applications across multiple-AZ<br>
+                        <strong>○ Scalability</strong> : Vertical is to increase <strong>the size</strong> of instance, Horizontal is to increase <strong>the number</strong> of instance<br>
+                        <strong>○ Elasticity</strong>: Scale up and down based on demand<br>
+                        <strong>○ Agility</strong>: Concept of the cloud, make the work faster by creating and deleting resources quickly<br>
                     </li>
                     <li id="7596"><strong>ELB</strong><br>○
                         Distribute traffic across backend EC2 instances, can be Multi-AZ<br>○ Supports health
-                        checks<br>○ 4 types: Classic (old), Application (HTTP-L7), Network (TCP-L4), Gateay (L3)</li>
+                        checks<br>○ 4 types: Classic (old), Application (HTTP-L7), Network (TCP-L4), Gateway (L3)</li>
                     <li id="6242"><strong>ASG</strong><br>○
                         Implement Elasticity for your application, across multiple AZ<br>○ Scale EC2 instances based on
-                        the demand on your system, and replace unhealthy<br>○ Integrated with the ELB</li>
+                        the demand on your system, and replace unhealthy<br>○ Integrated with the ELB<br>○ Auto Scaling Strategy: Manual Scaling, Dynamic Scaling, Predictive Scaling</li>
                 </ul>
                 <blockquote>
                     <p id="db99">ELB: Elastic Load Balancer<br>ASG: Auto Scaling Group</p>
@@ -237,7 +243,7 @@ layout: archives
                         pricing for simple applications &amp; DB</li>
                 </ul>
                 <blockquote>
-                    <p id="db99">ECS: Elastic Container Service<br>ECR: Elastic Container Registry<br>EFS: Elastic File System</p>
+                    <p id="db99">ECS: Elastic Container Service<br>ECR: Elastic Container Registry</p>
                 </blockquote>
             </div>
         </div>
