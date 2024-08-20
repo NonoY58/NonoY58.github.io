@@ -117,7 +117,7 @@ layout: archives
                         checks<br>○ 4 types: Classic (old), Application (HTTP-L7), Network (TCP-L4), Gateway (L3)</li>
                     <li id="6242"><strong>ASG</strong><br>○
                         Implement Elasticity for your application, across multiple AZ<br>○ Scale EC2 instances based on
-                        the demand on your system, and replace unhealthy<br>○ Integrated with the ELB<br>○ Auto Scaling Strategy: Manual Scaling, Dynamic Scaling, Predictive Scaling</li>
+                        the demand on your system, and replace unhealthy<br>○ Integrated with the ELB<br>○ <strong>Auto Scaling Strategy</strong>: Manual Scaling, Dynamic Scaling, Predictive Scaling</li>
                 </ul>
                 <blockquote>
                     <p id="db99">ELB: Elastic Load Balancer<br>ASG: Auto Scaling Group</p>
@@ -144,15 +144,14 @@ layout: archives
                         1Z-IA, Intelligent, Glacier (Instant, Flexible, Deep)</li>
                     <li id="3dae"><strong>Snow Family</strong> — Import data onto S3
                         through a physical device, edge computing<br>○ <strong>SnowCone &amp; SnowCone SSD
-                        </strong>— Storage capacity → 8TB HDD, 14TB SSD, Storage capacity → 8TBsize up to 24TB, online
+                        </strong>— Storage capacity: 8TB HDD, 14TB SSD, up to 24TB, online
                         and offline<br>○<strong> Snowball Edge &amp; Storage Optimized </strong>— Storage
-                        capacity → 80TB usable, Storage capacity → up to Petabytes, offline<br>○<strong>
-                            SnowMobile</strong> — Storage capacity → &lt; 100PB, Storage capacity → up to Exabytes,
-                        offline</li>
+                        capacity: 80TB usable, up to Petabytes, offline
                     <li id="99e6"><strong>OpsHub </strong>— Desktop application to
                         manage Snow Family devices</li>
                     <li id="48a4"><strong>Storage Gateway</strong> — Hybrid solution to
                         extend on-premises storage to S3</li>
+                    <li id="48a4"><strong>Lifecycle Rules</strong> — Move objects automatically between all storage classes</li>
                 </ul>
                 <blockquote>
                     <p id="3367">IA: Infrequency Access</p>
@@ -185,14 +184,13 @@ layout: archives
                             Multi-Region</strong></li>
                     <li id="20fd"><strong>In-memory Database </strong>— ElasticCache
                     </li>
-                    <li id="4506"><strong>Key/Value Database</strong> — DynamoDB
-                        (serverless) &amp; DAX (cache for DynamoDB)</li>
-                    <li id="dc1d"><strong>Warehouse-OLAP</strong> — Redshift (SQL)</li>
-                    <li id="24da"><strong>Hadoop Cluster </strong>— EMR; Elastic MapReduce, Hadoop is a Framework for Big Data</li>
+                    <li id="4506"><strong>DynamoDB</strong> — Key/Value Database, serverless, low latency, DAX (cache for DynamoDB), Global tables</li>
+                    <li id="dc1d"><strong>Redshift</strong> — Warehouse-OLAP, Based on PostgreSQL, columnar strage of data, can integrate to BI tools like Quicksight, serverless also available</li>
+                    <li id="24da"><strong>EMR</strong>—Hadoop Cluster, can be made of 100s of EC2 instances</li>
                     <li id="cca1"><strong>Athena</strong> — Query data on Amazon S3
                         (serverless &amp; SQL)</li>
                     <li id="7b78"><strong>QuckSight</strong> — Dashboard on your data
-                        (serverless)</li>
+                        (serverless), Machine learning powered</li>
                     <li id="07bd"><strong>DocumentDB</strong> — “Aurora for MongoDB”
                         (JSON- NoSQL database)</li>
                     <li id="9469"><strong>Amazon QLDB </strong>— Financial Transactions
@@ -204,10 +202,18 @@ layout: archives
                     <li id="76b5"><strong>Database Migration</strong> — DMS</li>
                     <li id="64fc"><strong>Neptune</strong> — Graph Database (Social
                         Network)</li>
+                    <li id="64fc"><strong>Timestream</strong> — time series database</li>
                 </ul>
                 <blockquote>
-                    <p id="3443">OLAP: Online Analytics Processing</p>
-                    <p id="3443">EMR: Elastic Map Reduce</p>
+                    OLTP: Online Transaction Processing<br>
+                    OLAP: Online Analytical Processing<br>
+                    DAX: DynamoDB Accelerator<br>
+                    Hadoop: a Framework for Big Data, Open-source<br>
+                    EMR: Elastic Map Reduce, helps creating Hadoop clusters(Big Data)<br>
+                    Ledger: A Record of Financial Transactions<br>
+                    Serverless: you can build and run applications without provisioning or managing servers.<br>○ <strong>Automatic scaling</strong>: Your application can handle varying loads without manual<br>○ <strong>High availability</strong>: AWS ensures your application is always available<br>○ <strong>Pay-per-use</strong>: You only pay for the compute time your code actually uses<br>
+
+
                 </blockquote>
                 <figure>
                     <div role="button" tabindex="0">
