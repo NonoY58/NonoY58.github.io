@@ -12,6 +12,7 @@ layout: archives
 
 - [コーンとツナのポン酢しょうゆ炒め](https://delishkitchen.tv/recipes/362257803705844014)
 - [ごぼうとイワシのマヨサラダ](https://www.kurashiru.com/recipes/fd54bca8-4739-4976-a09c-209ead2da087)
+- [小鉢の定番！基本のナスの煮びたし](https://www.kurashiru.com/recipes/1bc74be3-c9f1-4953-ac8d-31cd0fddf906)
 
 - [定食の味！豚の生姜焼き](https://cookpad.com/recipe/5423593)
 - [基本のポークソテー](https://www.kurashiru.com/recipes/7c15e202-adde-4a2d-b385-7977538bb345)
