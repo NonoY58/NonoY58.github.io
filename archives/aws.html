@@ -52,7 +52,7 @@ layout: archives
                 <h1 id="16ab">EC2</h1>
                 <ul>
                     <li id="b56a"><strong>EC2 Instance </strong>— AMI(OS) + Instance
-                        Size (CPU + RAM) + Storage + Security Group + EC2 User Data</li>
+                        Size (CPU + RAM) + Storage + Security Group + EC2 User Data, Infrastructure as a Service (IaaS) </li>
                     <li id="59e4"><strong>Security Groups</strong> — Firewall attached
                         to the EC2 instance</li>
                     <li id="5c8c"><strong>Classic Ports to know </strong><br>○ SSH=22, FTP=21, SFTP=22, HTTP=80, HTTPS=443, RDP=3389</li>
@@ -531,7 +531,7 @@ layout: archives
                     <li id="a299">Operate multiple accounts using
                         <strong>Organizations</strong>
                     </li>
-                    <li id="1d91">Use <strong>SCP</strong> (service control policies)
+                    <li id="1d91">Use <strong>SCP</strong> 
                         to restrict account power</li>
                     <li id="b2a5">Easily setup multiple accounts with best-practices with
                         <strong>AWS Control Tower</strong>
@@ -553,6 +553,9 @@ layout: archives
                         admins using
                         <strong>AWS Service Catalog</strong>
                     </li>
+                    <blockquote>
+                        SCP: Service Control Policies
+                    </blockquote>
                 </ul>
             </div>
         </div>
@@ -563,6 +566,8 @@ layout: archives
             <div>
                 <h1 id="9b2a">Billing and Costing Tools</h1>
                 <ul>
+                    <li id="60f2"><strong>Organizations</strong> — Manage multiple
+                        accounts<br>○ Consolidated Billing across all accounts<br>○ Pricing benefits from aggregated usage<br>○ Restrict account privileges using Service Control Policies (SCP)<br>○ API is available to automate AWS account creation</li>
                     <li id="58ad"><strong>Compute Optimizer </strong>— Recommends
                         resources’ configuration to reduce cost</li>
                     <li id="e368"><strong>Pricing Calculator</strong> — Cost of
@@ -577,9 +582,8 @@ layout: archives
                         (detailed) and forecast usage</li>
                     <li id="5e37"><strong>Billing Alarms </strong>— in us-east-1 —
                         track overall and per-service billing</li>
-                    <li id="776d"><strong>Budgets</strong> — More advanced — track
-                        usage, costs, RI, and get alerts</li>
-                    <li id="5f93"><strong>Savings Plan </strong>— Easy way to save based on long-term usage of AWS<br>○ <strong>EC2 Savings Plan</strong>: Up to 72% discount, Regardless of AZ, size(m5.xl to m5.4xl), OS(Libux/Windows) or tenancy<br>○ <strong>Compute Savings Plan</strong>: Up to 66% discount, Regardless of Family, Region, size, OS, tenancy ando conpute options<br>○ <strong>Machine Learning Savings Plan</strong>: SageMaker... </li>
+                    <li id="776d"><strong>Budgets</strong> Send alarms when costs exceeds the budget, 4 types of budgets: Usage, Cost, Reservation, Savings Plans</li>
+                    <li id="5f93"><strong>Savings Plan </strong>— Commit a certain $ amount per hour for 1 or 3 years<br>○ <strong>EC2 Savings Plan</strong>: Up to 72% discount, Regardless of AZ, size(m5.xl to m5.4xl), OS(Libux/Windows) or tenancy<br>○ <strong>Compute Savings Plan</strong>: Up to 66% discount, Regardless of Family, Region, size, OS, tenancy ando conpute options<br>○ <strong>Machine Learning Savings Plan</strong>: SageMaker... </li>
                     <li id="39f2"><strong>Cost Anomaly Detection</strong> — Detect
                         unusual spends using Machine Learning</li>
                     <li id="00e8"><strong>Service Quotas </strong>— Notify you when
@@ -596,8 +600,6 @@ layout: archives
                 <ul>
                     <li id="c000"><strong>IAM</strong><br>○ Identity and Access
                         Management inside your AWS account<br>○ For users that you trust and belong to your company</li>
-                    <li id="60f2"><strong>Organizations</strong> — Manage multiple
-                        accounts</li>
                     <li id="8b13"><strong>Security Token Service (STS) </strong>—
                         temporary, limited-privileges credentials to access AWS resources</li>
                     <li id="98df"><strong>Cognito</strong> — Create a database of users
