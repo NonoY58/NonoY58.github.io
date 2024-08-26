@@ -82,7 +82,7 @@ layout: archives
                         attached to one EC2 instance at a time<br>○ Mapped to an Availability Zones<br>○ Can use EBS
                         Snapshots for backups/transferring EBS volumes across AZ</li>
                     <li id="3e02"><strong>AMI</strong> — Create ready-to-use EC2
-                        instance with customizations</li>
+                        instance with customizations<br>○ AMI must be in the same region as that of the Amazon EC2 instance to be launched</li>
                     <li id="3fb8"><strong>EC2 Image Builder </strong>— Automatically
                         build, test, and distribute AMIs</li>
                     <li id="ccc2"><strong>EC2 Instance Store </strong><br>○
@@ -387,8 +387,7 @@ layout: archives
                         within your AWS account</li>
                     <li id="d816"><strong>CloudTrail Insights</strong> — Automated
                         analysis of your CloudTrail Events</li>
-                    <li id="3971"><strong>X-Ray </strong>— Trace requests made through
-                        your distributed applications</li>
+                    <li id="3971"><strong>X-Ray </strong>— Analyze and debug serverless and distributed applications such as those built using a microservices architecture</li>
                     <li id="088a"><strong>AWS Health Dashboard </strong>— Status of all
                         AWS services across all regions</li>
                     <li id="f271"><strong>AWS Account Health Dashboard</strong> — AWS
@@ -396,6 +395,9 @@ layout: archives
                     <li id="98bb"><strong>Amazon CodeGuru</strong> — Automated code
                         reviews and application performance recommendations</li>
                 </ul>
+                <blockquote>
+                    ○ CloudWatch: Think resource performance monitoring, events, and alerts<br>○ CloudTrail: Think account-specific activity and audit<br>○ Config: Think resource-specific change history, audit, and compliance<br>
+                </blockquote>
             </div>
         </div>
     </div>
@@ -569,7 +571,7 @@ layout: archives
                     <li id="60f2"><strong>Organizations</strong> — Manage multiple
                         accounts<br>○ Consolidated Billing across all accounts<br>○ Pricing benefits from aggregated usage<br>○ Restrict account privileges using Service Control Policies (SCP)<br>○ API is available to automate AWS account creation</li>
                     <li id="58ad"><strong>Compute Optimizer </strong>— Recommends
-                        resources’ configuration to reduce cost</li>
+                        resources’ configuration to reduce cost<br>○ Delivers recommendations for selected types of EC2 instances, EC2 Auto Scaling groups, Amazon EBS volumes, and AWS Lambda functions</li>
                     <li id="e368"><strong>Pricing Calculator</strong> — Cost of
                         services on AWS</li>
                     <li id="2f1d"><strong>Billing Dashboard </strong>— High-level
