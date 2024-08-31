@@ -54,7 +54,7 @@ layout: archives
                     <li id="b56a"><strong>EC2 Instance </strong>— AMI(OS) + Instance
                         Size (CPU + RAM) + Storage + Security Group + EC2 User Data, Infrastructure as a Service (IaaS) </li>
                     <li id="59e4"><strong>Security Groups</strong> — Firewall attached
-                        to the EC2 instance</li>
+                        to the EC2 instance, Allow rules only</li>
                     <li id="5c8c"><strong>Classic Ports to know </strong><br>○ SSH=22, FTP=21, SFTP=22, HTTP=80, HTTPS=443, RDP=3389</li>
                     <li id="e487"><strong>EC2 User Data </strong>— Script launched at
                         the first start of an instance</li>
@@ -384,7 +384,7 @@ layout: archives
                         EventBridge) — React to events in AWS, or trigger a rule on a schedule
                     </li>
                     <li id="d8fe"><strong>CloudTrail</strong> — Audit API calls made
-                        within your AWS account</li>
+                        within your AWS account, logs transfer to S3 is encryped by default</li>
                     <li id="d816"><strong>CloudTrail Insights</strong> — Automated
                         analysis of your CloudTrail Events</li>
                     <li id="3971"><strong>X-Ray </strong>— Analyze and debug serverless and distributed applications such as those built using a microservices architecture</li>
@@ -421,7 +421,7 @@ layout: archives
                     <li id="01b5"><strong>Elastic IP</strong> — Fixed public IPv4,
                         ongoing cost if not in-use</li>
                     <li id="6ba2"><strong>VPC Endpoints </strong> — Provide Private
-                        access to AWS Services within VPC</li>
+                        access to AWS Services within VPC, Only for S3 and DynamoDB</li>
                     <li id="a7a3"><strong>PrivateLink (VPC Endpoint Services)</strong> — Privately connect to a
                         service in a 3rd party VPC</li>
                     <li id="0a48"><strong>VPC Flow Logs</strong> — network traffic logs
@@ -435,6 +435,34 @@ layout: archives
                     <li id="5480"><strong>Transit Gateway </strong>— Connect thousands
                         of VPC and on-premises networks together</li>
                 </ul>
+                <table border="1">
+
+                    <thead>
+                      <tr>
+                        <th>Feature</th>
+                        <th>Network Firewall</th>
+                        <th>NACL</th>
+                        <th>Security Group</th>
+                        <th>WAF</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Leyer</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>7</td>
+                      </tr>
+                      <tr>
+                        <td>Level</td>
+                        <td>VPC</td>
+                        <td>Subnet</td>
+                        <td>Instance</td>
+                        <td>Application</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 <blockquote>
                     NAT: Network Address Translation<br>
                     NACL: Network Access Control List<br>
@@ -468,8 +496,7 @@ layout: archives
                         reports such as PCI, ISO, etc …</li>
                     <li id="bfcb"><strong>GuardDuty</strong> — Find malicious behavior
                         with VPC, DNS &amp; CloudTrail Logs</li>
-                    <li id="edf2"><strong>Inspector</strong> — Find software
-                        vulnerabilities in EC2, ECR images, and Lambda functions</li>
+                    <li id="edf2"><strong>Inspector</strong> — Automatically assesses applications for exposure, vulnerabilities, and deviations from best practices in EC2, ECR images, and Lambda functions</li>
                     <li id="1817"><strong>Penetration Testing</strong> — security assessments<br>○ Prohibited Activities: DNS zone walking via Amazon Route 53 Hosted Zones, Denial of Service (DoS), Distributed Denial of Service (DDoS), Simulated DoS, Simulated DDoS, Port flooding, Protocol flooding, Request flooding (login request flooding, AP| request flooding)</li>    
                     <li id="6697"><strong>Config</strong> — Track config changes and
                         compliance against rules</li>
