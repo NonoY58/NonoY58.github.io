@@ -1,7 +1,7 @@
 # This file is to navigate in archives directory.
 
 - name: Solution Architect
-  link: /archives/solutionArchitect.md
+  link: /archives/awsSolutionArchitect.md
 - name: Cloud Practitioner
   link: /archives/aws.html
 - name: ML/DL
