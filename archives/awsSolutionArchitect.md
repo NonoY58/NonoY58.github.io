@@ -2,6 +2,8 @@
 layout: archives
 ---
 
+[original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
+
 # AWS Certified Solutions Architect Associate (SAA-C03/SAA-C04) reference guide [2025]
 
 ![AWS Certified Solutions Architect Associate (SAA-C03/SAA-C04) reference guide](/extras/AWS_Certified_Solutions_Architect_Associate_SAA_C03_Cheatsheet_logo.png)
