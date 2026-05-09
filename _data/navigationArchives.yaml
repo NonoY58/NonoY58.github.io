@@ -1,6 +1,8 @@
 # This file is to navigate in archives directory.
 
-- name: AWS
+- name: Solution Architect
+  link: /archives/solution-architect.html
+- name: Cloud Practitioner
   link: /archives/aws.html
 - name: ML/DL
   link: /archives/MLDL.html
