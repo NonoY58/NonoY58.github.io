@@ -4,7 +4,7 @@ layout: archives
 
 ===
 
-[original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
+## [original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
 
 ===
 
