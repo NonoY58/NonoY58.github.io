@@ -6,7 +6,7 @@ layout: archives
 
 # Resource List
 
-## [sample test](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)
+## [sample quiz](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/)
 
 ## [original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
 
@@ -340,13 +340,13 @@ Here is some short information about Amazon S3 that you will need to know to pas
 - S3 can be used to store any type of data, including web pages, images, videos, and databases.
 - S3 is secure, durable, and low-cost.
 - S3 is easy to use and provides a variety of features to help you manage your data, including:
-- Object versioning
-- Access control (IAM, Bucket Policies, Access Points, Access Grants)
-- Bucket policies
-- Server-side encryption (SSE-S3, SSE-KMS, SSE-C)
-- Static website hosting
-- S3 Storage Lens (for organization-wide visibility)
-- S3 Object Lambda (process data as it is retrieved)
+  - Object versioning
+  - Access control (IAM, Bucket Policies, Access Points, Access Grants)
+  - Bucket policies
+  - Server-side encryption (SSE-S3, SSE-KMS, SSE-C)
+  - Static website hosting
+  - S3 Storage Lens (for organization-wide visibility)
+  - S3 Object Lambda (process data as it is retrieved)
 
 Here are some additional details about Amazon S3 that you may want to know:
 
@@ -1301,3 +1301,5 @@ This project is licensed under the MIT License.
 # Memo
 ## [NAT Gateway](https://certsensei.io/glossary/aws-solutions-architect/nat-gateway)
 - A NAT Gateway is a fully managed AWS service that allows instances in a private subnet to initiate outbound connections to the internet or other AWS services, while preventing unsolicited inbound connections. It enhances security by hiding private IP addresses.
+## Hibernate your Amazon EC2 instance
+- EC2 instances save the contents of instance memory to an Amazon Elastic Block Store (Amazon EBS) root volume. When the instances restart, the instance memory contents are reloaded.
