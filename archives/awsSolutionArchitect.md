@@ -4,6 +4,8 @@ layout: archives
 
 ***
 
+# Resource List
+
 ## [sample test](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)
 
 ## [original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
@@ -1294,3 +1296,8 @@ We welcome contributions from the community. If you have ideas, bug reports, or 
 ## License
 
 This project is licensed under the MIT License.
+
+
+# Memo
+## [NAT Gateway](https://certsensei.io/glossary/aws-solutions-architect/nat-gateway)
+- A NAT Gateway is a fully managed AWS service that allows instances in a private subnet to initiate outbound connections to the internet or other AWS services, while preventing unsolicited inbound connections. It enhances security by hiding private IP addresses.
