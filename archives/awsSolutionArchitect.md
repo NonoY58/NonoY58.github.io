@@ -4,9 +4,10 @@ layout: archives
 
 ***
 
+## [sample test](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)
+
 ## [original page](https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2025/blob/main/README.md?plain=1)
 
-***
 
 # AWS Certified Solutions Architect Associate (SAA-C03/SAA-C04) reference guide [2025]
 
